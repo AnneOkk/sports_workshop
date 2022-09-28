@@ -1,8 +1,8 @@
 ---
-title: "Data analysis with R and Quarto + Collaboration using GitHub"
+title: "Körperliche Fitness – Sport als Hilfsmittel zur Stressbewältigung im Arbeitsalltag"
 title-slide-attributes:
     data-background-color: "#a13c65"
-subtitle: "Introductory workshop for the Human AI Team, Sep 2022"
+subtitle: "Den Spaß am Sport (wieder-)entdecken – auch mit vollem Terminkalender!"
 format:
   revealjs: 
     slide-number: true
