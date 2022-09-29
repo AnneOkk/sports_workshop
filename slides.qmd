@@ -1,23 +1,25 @@
 ---
 title: "Körperliche Fitness – Sport als Hilfsmittel zur Stressbewältigung im Arbeitsalltag"
+author: "Anne-Kathrin Kleine"
 title-slide-attributes:
     data-background-color: "#a13c65"
+    data-background-image: "images/Logo_LMU_Center_full.png"
+    data-background-size: "350px"
+    data-background-position: "top 5px right 20px"
 subtitle: "Den Spaß am Sport (wieder-)entdecken – auch mit vollem Terminkalender!"
 format:
   revealjs: 
     slide-number: true
     width: 1600
-    height: 1200
+    height: 900
+    margin: 0.2
     chalkboard: 
       buttons: false
     preview-links: true
-    footer: <https://quarto.org>
     theme: [simple, custom.scss]
-    logo: "/images/logoclin.png"
     scrollable: false
-    center: true
-resources:
-  - demo.pdf
+    center: false
+    background-transition: fade
 ---
 
 
@@ -29,996 +31,339 @@ library(gt)
 library(gtExtras)
 ```
 
-## Overview
 
-What I will present today:
+## ...Vorstellungsrunde {background-image="images/hello.jpg"}
 
-- How to write, share, and present code and text using R and Quarto
-- How to render code and text into different output formats (including presentations and APA style articles in word)
-- How to use Zotero with R 
-- How to collaborate using Git and GitHub (only introduction)
+## ...Vorstellungsrunde {background-image="images/hello.jpg" background-opacity=0.2}
 
-...and some other stuff
-
-## Resources 
-
-- many of the Quarto-specific slides adapted from [Thomas Mock's presentation](https://github.com/jthomasmock/quarto-2hr-webinar) 
-- many helpful resources may be found in [this GitHub repository](https://github.com/mcanouil/awesome-quarto)
-
-
-## Workshop Prep (do it now!)
-
-- Are you on the latest version of RStudio i.e. [`v2022.07.1` or later](https://www.rstudio.com/products/rstudio/download/#download)?
-
-``` r
-pkg_list <- c(
-  "tidyverse", "gt", "gtExtras", "reactable", "ggiraph", "here", "quarto",
-  "rmarkdown", "gtsummary", "palmerpenguins", "fs", "skimr"
-  )
-install.packages(pkg_list)
-```
-
-
-## How does RMarkdown work?
-
-
-![](images/rmd-knitr.png){fig-alt="A diagram of how a RMD is turned into output formats via knitr and pandoc"}
-
-## Quarto, more than *just* `knitr`
+![](images/Logo_LMU_Center_full.png){.absolute top=-84 right=-340 width="450"}
 
 . . .
 
-
-![](images/qmd-knitr.jpeg)
-
-## Quarto, more than *just* `knitr`
-
-![](images/qmd-jupyter.jpeg)
-
-
-## So what is Quarto?
-
-> Quarto is a command line interface (CLI) that renders plain text formats (`.qmd`, `.rmd`, `.md`) OR mixed formats (`.ipynb`/Jupyter notebook) into static PDF/Word/HTML reports, books, websites, presentations and more
-
-
-## One install, "Batteries included"
-
--   Quarto is bundled and comes pre-installed with RStudio [v2022.07.1](https://www.rstudio.com/products/rstudio/download/#download) and beyond!
-
-- [more infos](https://quarto.org/docs/computations/r.html#installation)
-
-
-## Rendering
-
-1. Render button
+### Ihr Name 👋
 
 . . .
 
-![](https://quarto.org/docs/tools/images/rstudio-render.png){fig-alt="A screenshot of the render button in RStudio" width="1000px"}  
+### Ihr Lieblingssport 🏌
 
 
-## Rendering
+## Technische Hinweise 
 
-2.  System shell via `quarto render`
+![](images/Logo_LMU_Center_full.png){.absolute top=-84 right=-340 width="450"}
 
-::: {style="font-size: 60px;"}
-```{.bash filename="terminal"}
-quarto render document.qmd # defaults to html
-quarto render document.qmd --to pdf
-quarto render document.qmd --to docx
-```
+1. Die Mikrofone sind i.d.R. stumm, um Hintergrundgeräusche zu reduzieren. 
+
+. . .
+
+2. Bitte Zeichen geben, um Wortmeldungen zu signalisieren.
+
+. . .
+
+3. Die Videoübertragung ist erwünscht. Das erleichtert die Kommunikation und schafft eine produktivere und angenehmere Gesprächssituation. 
+
+. . .
+
+4. Bei technischen Problemen bitte den Chat nutzen.
+
+. . .
+
+5. Screenshots/Videoaufnahmen vom Seminar sind nicht gestattet.
+
+
+## Technische Hinweise 
+
+![](images/Logo_LMU_Center_full.png){.absolute top=-84 right=-340 width="450"}
+
+6. Zur Optimierung Ihrer persönlichen Lernerfahrung empfehle ich Ihnen eine aktive Teilnahme am Workshops.
+
+. . .
+
+7. Bitte rufen Sie [annekathrinkleine.com](annekathrinkleine.com) auf, gehen Sie zu "Talks and Workshops" und öffnen Sie die Slideshow für den heutigen Workshop
+
+
+::: {.notes}
+Das Seminar lebt von einer regen Teilnahme. Wir begrüßen daher verschiedene Meinungen und freuen uns auf interessante Diskussionen!
+
+Das digitale Setting erschwert erfahrungsgemäß Interaktionen und hebt die Hemmschwelle, sich zu beteiligen.
+
+Der Workshop lebt aber davon, dass sich alle Teilnehmenden einbringen, mit diskutieren. Wir geben euch Input und schlagen eine Perspektive vor. Aber Jede und Jeder von euch kann wirklich am meisten von dieser Veranstaltung profitieren, wenn noch mehr Input und noch mehr Perspektiven eingebracht werden. Dafür brauchen wir euch! Bitte seht hier eure Eigenverantwortlichkeit, aber auch Mündigkeit, eigene Gedanken, Erfahrungen und Ideen zu teilen.
+
+Wenn Fragen aufkommen, könnt ihr diese jederzeit stellen. Bitte legt einen Block und Schreibzeug neben den Computer. 
+
+:::
+
+## Wie zufrieden sind Sie mit Ihrem aktuellen Sportpensum?
+
+![](images/Logo_LMU_Center_full.png){.absolute top=-84 right=-340 width="450"}
+
+
+Besuchen Sie [diesen Link](https://www.menti.com/al14e9g5f7kf)
+
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/4eefd91211156033bd3fa9f601f280c2/57c5b1296da5/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+
+# Die vielfältigen Funktionen des Sports
+
+## Körperliche und mentale Gesundheit {background-image="images/health.jpg"}
+
+## Körperliche und mentale Gesundheit {background-image="images/health.jpg" background-opacity=0.2}
+
+![](images/Logo_LMU_Center_full.png){.absolute top=-84 right=-340 width="450"}
+
+Sport trägt (wenn das Pensum und die Motivation stimmen) zur [körperlichen Gesundheit](https://static1.squarespace.com/static/60131e01d2d9c849d43b6a2a/t/611e908476709c1452bb2e92/1629393031740/Book.pdf#page=53) bei:
+
+- Energiestoffwechsel
+- Atmungssystem
+- Immunsystem
+- Herz-Kreislauf-System
+- Skelett und Muskulatur
+- Nervensystem und Gehirn
+
+. . .
+
+Sport wirkt sich nicht nur positiv auf die körperliche Fitness aus, sondern [kann bei der Stressbewältigung, der Reduktion von Ängsten und dem Aufbau eines gesunden Selbstvertrauens helfen](https://europepmc.org/article/med/27801745).
+
+
+## Soziale Funktion {background-image="images/social.jpg"}
+
+## [Soziale Funktion](https://sportscotland.org.uk/documents/resources/thesocialbenefitsofsport.pdf) {background-image="images/social.jpg" background-opacity=0.2}
+
+![](images/Logo_LMU_Center_full.png){.absolute top=-84 right=-340 width="450"}
+
+Im Sport wird Begegnung und Dialog in Kooperation und angemessenem Wettstreit ermöglicht. 
+
+. . .
+
+Im Sport können Menschen neue Verhaltensweisen und den Umgang miteinander spielerisch proben. 
+
+. . .
+
+Sport verbindet Menschen durch das gemeinsame Interesse an der Sache. 
+
+. . .
+
+Im Sport gibt es Regeln, die positive Wirkungen im Sinne eines an Werten und Normen orientierten
+Sozialverhaltens entfalten können. 
+
+## Persönliche Entwicklung {background-image="images/strength.jpg"}
+
+## Persönliche Entwicklung {background-image="images/strength.jpg" background-opacity=0.2}
+
+![](images/Logo_LMU_Center_full.png){.absolute top=-84 right=-340 width="450"}
+
+Sport bietet die Möglichkeit, gezielt an sich zu arbeiten und sich weiterzuentwickeln. 
+
+. . .
+
+Die Stärkung bestimmter Eigenschaften wie [Disziplin und Durchhaltevermögen](https://secret-wiki.de/blog/persoenlichkeitsentwicklung-durch-sport/) kann durch Sport aktiv gefördert werden. 
+
+. . .
+
+Sport hilft nachweislich dabei, mit [Rückschlägen besser umgehen zu können](https://www.healthdirect.gov.au/developing-life-skills-through-sports#:~:text=Developmental%20benefits,loser%20takes%20maturity%20and%20practice) und langfristige Ziele zu verfolgen. 
+
+. . .
+
+Durch Sport können wir lernen, [uns selbst besser wahrzunehmen](https://secret-wiki.de/blog/persoenlichkeitsentwicklung-durch-sport/)
+
+
+## Ästhetische Funktion {background-image="images/aesth2.jpg"}
+
+## Ästhetische Funktion {background-image="images/aesth2.jpg" background-opacity=0.2}
+
+![](images/Logo_LMU_Center_full.png){.absolute top=-84 right=-340 width="450"}
+
+
+Es gibt einen [bidirektionalen Zusammenhang zwischen einer positiven Sicht auf den eigenen Körper und sportlicher Betätigung](https://www.sciencedirect.com/science/article/abs/pii/S1469029218305491).
+
+. . .
+
+Menschen, die regelmäßig Sport treiben, haben generell ein [positiveres körperbezogenes Selbstbild](https://www.sciencedirect.com/science/article/abs/pii/S1740144518303097).
+
+# Sport - nicht ohne Risiken und Nebenwirkungen? 
+
+## Die negativen Seiten des Sports {background-image="images/negative.jpg"}
+
+## [Die negativen Seiten des Sports](https://link.springer.com/article/10.1007/s00132-019-03823-5#:~:text=Dies%20betrifft%20in%20erster%20Linie,wie%20Essst%C3%B6rungen%2C%20Substanzmissbrauch%20sowie%20Sportabh%C3%A4ngigkeit._) {background-image="images/negative.jpg" background-opacity=0.2}
+
+
+- Körperliche Beeinträchtigungen durch Verletzungen 
+
+. . .
+
+- Wenn Sport in einem exzessiven Umfang betrieben wird, erhöht sich zudem das Risiko für psychische Störungsbilder wie Essstörungen, Substanzmissbrauch sowie Sportabhängigkeit
+
+. . .
+
+- Perfektionismus und extreme Ansprüche können die [mentale Gesundheit negative beeinflussen](https://journals.sagepub.com/doi/abs/10.1111/j.0963-7214.2005.00326.x)
+
+# Let's stay positive! 
+
+::: {.r-stack}
+![](images/health.jpg){.fragment width="950"}
+
+![](images/social.jpg){.fragment width="900"}
+
+![](images/strength.jpg){.fragment width="850"}
+
+![](images/aesth2.jpg){.fragment width="800"}
 :::
 
 
-# Quick excourse: *Power Shell* and *Terminal* {background-color="#DADEFD"}
+## Was hält Sie Ihrer Meinung nach davon ab, soviel Sport zu machen, wie Sie es sich wünschen?
 
-:::: columns
-::: {.column width="50%"}
-[Windows Power Shell](https://learn.microsoft.com/en-us/powershell/scripting/discover-powershell?view=powershell-7.2) 
+![](images/Logo_LMU_Center_full.png){.absolute top=-84 right=-340 width="450"}
 
-- Click Start, type PowerShell, right-click Windows PowerShell, and then click Run as administrator
+Besuchen Sie [diesen Link](https://www.menti.com/al14e9g5f7kf)
 
-![](images/power_shell.png){width="600px"}
-
-[Image source: Wikipedia](https://upload.wikimedia.org/wikipedia/de/f/f6/Windowspowershell_unter_Windows_8.png)
-:::
-
-::: {.column width="50%"}
-[Mac Terminal](https://support.apple.com/en-gb/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac)
-
-- Click the Launchpad icon  in the Dock, type Terminal in the search field, then click Terminal
-
-![](images/terminal.png){width="700px"}
-
-[Image source: Wikipedia](https://en.wikipedia.org/wiki/Terminal_(macOS)#/media/File:Appleterminal2.png)
-:::
-::::
-
-## Rendering
-
-3.  R console via `quarto` R package
-
-::: {style="font-size: 60px;"}
-```{r}
-#| eval: false
-#| echo: true
-library(quarto)
-quarto_render("document.qmd") # defaults to html
-quarto_render("document.qmd", output_format = "pdf")
-```
-:::
-
-# Change Your Mental Model {background-color="#a13c65"}
-
-##
-:::: columns
-::: {.column width="50%"}
-Source
-
-![](images/word.png){width="700px" fig-alt="A blank Word document"}
-:::
-
-::: {.column width="50%"}
-Output
-
-![](images/word.png){width="700px" fig-alt="A blank Word document"}
-:::
-::::
-
-##
-::: columns
-::: {.column width="50%"}
-Source
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/4eefd91211156033bd3fa9f601f280c2/57c5b1296da5/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
 
 
-    ---
-    title: "ggplot2 demo"
-    author: "Norah Jones"
-    date: "5/22/2021"
-    format: 
-      html:
-        fig-width: 8
-        fig-height: 4
-        code-fold: true
-    ---
+# Wann und wie tut Sport eigentlich gut? 
 
-    ## Air Quality
+Sportmotivation aus der Selbstbestimmungsperspektive: [Die drei Grundbedürfnisse](https://core.ac.uk/download/pdf/185427586.pdf_)
 
-    @fig-airquality further explores the impact of temperature 
-      on ozone level.
+## Das Autonomiebedürfnis {background-image="images/autonomy.jpg"}
 
-    ```{{r}}
-    #| label: fig-airquality
-    #| fig-cap: Temperature and ozone level.
-    #| warning: false
-    library(ggplot2)
-    ggplot(airquality, aes(Temp, Ozone)) + 
-      geom_point() + 
-      geom_smooth(method = "loess"
-    )
-    ```
-:::
+## Das Autonomiebedürfnis {background-image="images/autonomy.jpg" background-opacity=0.2}
 
-::: {.column width="50%"}
-Output
-![](https://quarto.org/images/hello-knitr.png)
-:::
-:::
+- Das Autonomiebedürfnis wird durch das Fällen eigener, unabhängiger Entscheidungen gestärkt
+
+- Handeln wir im Einklang mit unseren Werten und Normen und fühlen uns nicht oder kaum von aßen bestimmt, ist unser Autonomieempfinden hoch
+
+## Das Beziehungsbedürfnis {background-image="images/relation.jpg"}
+
+## Das Beziehungsbedürfnis {background-image="images/relation.jpg" background-opacity=0.2}
+
+- Das Beziehungsbedürfnis ist erfüllt, wenn wir uns mit anderen verbunden fühlen und von anderen verstanden fühlen
+
+## Das Kompetenzbedürfnis {background-image="images/compet.jpg"}
+
+## Das Kompetenzbedürfnis {background-image="images/compet.jpg" background-opacity=0.2}
+
+- Das Kompenezbedürfnis ist erfüllt, wenn wir die Erfahrung machen, dass unser Handeln die gewünschten Effekte hervorbringt
 
 
-# Working with a `.qmd` {background-color="#a13c65"}
+## Die drei Grundbedürfnisse
 
+![](images/Logo_LMU_Center_full.png){.absolute top=-84 right=-340 width="450"}
 
-## A `.qmd` is a plain text file
+[Zahlreiche Forschungsbefunde](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.704.6438&rep=rep1&type=pdf) deuten darauf hin, dass die Erfüllung der drei Grundbedürfnisse ausschlaggebend dafür ist
 
 . . .
 
--   Metadata (YAML)  
-
-::: {style="font-size: 60px;"}
-``` yaml
-format: html
-engine: knitr
-```
-:::
+1. ob wir überhaupt überhaupt Sport treiben und 
 
 . . .
 
--   Code
-
-::: {style="font-size: 60px;"}
-````code
-```{{r}}
-library(dplyr)
-mtcars |> 
-  group_by(cyl) |> 
-  summarize(mean = mean(mpg))
-```
-````
-:::
-
-. . .
-
--   Text
-
-::: {style="font-size: 60px;"}
-``` markdown
-# Heading 1
-This is a sentence with some **bold text**, *italic text* and an 
-![image](image.png){fig-alt="Alt text for this image"}.
-```
-:::
-
-## Metadata: YAML
-
-The [YAML](https://yaml.org/) metadata or header is:
-
-> processed in many stages of the rendering process and can influence the final document in many different ways. It is placed at the very beginning of the document and is read by each of Pandoc, Quarto and `knitr`. Along the way, the information that it contains can affect the code, content, and the rendering process.
+2. ob wir uns mit dem Sport und dem Sportpensum wohl fühlen
 
 
-## YAML
+# Einflussfaktoren auf die drei Grundbedürfnisse im Sport 
 
-::: {style="font-size: 80px;"}
-``` yaml
----
-title: "My Document"
-format: 
-  html:
-    toc: true
-    code-fold: true
----
-```
-:::
+## Das Autonomiebedürfnis {background-image="images/autonomy.jpg"}
 
+## Das Autonomiebedürfnis {background-image="images/autonomy.jpg" background-opacity=0.2}
 
-## Output Options
+### Die Coachin/ der Coach 
 
-::::: columns
-:::: {.column width="50%"}
+- generelle Unterscheidung zwischen einem [kontrollierenden und einem Autonomie stützenden Coaching-Stil](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.704.6438&rep=rep1&type=pdf_)
 
-::: {style="font-size: 60px;"}
-``` yaml
----
-format: something
----
-```
-:::
+### Vereinsstruktur und Mitgliedschaft 
 
-:::: 
+- flexible Mitgliedschaften schaffen höhere Autonomie 
 
-:::: {.column width="50%"}
+### Individual- vs. Teamsport 
 
+- generell mehr Autonomie im Individualsport 
 
-``` yaml
----
-format: html
----
-```
+### Das Umfeld
 
-``` yaml
----
-format: pdf
----
-```
+- wächst der Druck von außen (durch Partner_innen, Eltern, Freund_innen) Sport zu treiben, sinkt das Autonomieempfinden 
 
-``` yaml
----
-format: revealjs
----
-```
-::::
-:::::
+### Wertekonformität
+
+- wenn der Sport, den wir treiben, zu unseren Werten passt, ist unser Autonomieempfinden hoch. Das betrifft die Sportart selbst als auch den Umgang miteinander.
+
+## Das Beziehungsbedürfnis {background-image="images/relation.jpg"}
+
+## Das Beziehungsbedürfnis {background-image="images/relation.jpg" background-opacity=0.2}
+
+### Individual- vs. Teamsport
+
+- Stärkere Betonung des Gemeinschaftlichen im Teamsport  
+
+## Das Kompetenzbedürfnis {background-image="images/compet.jpg"}
+
+## Das Kompetenzbedürfnis {background-image="images/compet.jpg" background-opacity=0.2}
+
+- das Kompetenzbedürfnis wird besser erfüllt, wenn die sportliche Tätigkeit unsere schon vorhandenen Stärken und Kompetenzen einbindet 
+
+- das Kompetenzbedürfnis wird erfüllt, wenn es uns im Vergleich zu anderen schneller oder genauso schnell gelingt, uns im Sport zu verbessern 
+
+# Die Bedürfniserfüllung im Sport und unser Wohlbefinden - alles eine Frage der Kongruenz? 
+
+## Die Kongruenzregel
+
+- generell gefallen uns Tätigkeiten besser, die mit unseren individuellen Bedürfnissen, Werten und Zielen im Einklang stehen 
+
+- z.B. ist die Autonomie, die uns eine sportliche Aktivität bietet besonders hoch, profitieren wir besonders davon, wenn unser (aktuelles) Autonomiebedürfnis stark ausgeprägt ist 
+
+## Die Kongruenz von Ego vs. Task Involvement im Sport 
+
+- ein Klima, das Ego Involvement fördert, ist durch einen Leistungsfokus charakterisiert - Wettkampf, sozialer Vergleich und öffentliche Beurteilung stehen im Vordergrund 
+
+- ein Klima, das Task Involvement fördert, ist durch einen Fokus auf den Sport selbst charakterisiert; Mastery, Lernerfahrung und die Verbesserung der eigenen Fertigkeiten stehen im Vordergrund 
+
+- [passen die Gewichtung von Ego vs. Task Zielen im Team/ im Individualsport zur eigenen Gewichtung von Ego vs. Task Zielen, werden die Bedürfnisse nach Autonomie und Zusammengehörigkeit besser erfüllt](https://www.zora.uzh.ch/id/eprint/96690/1/Schueler_et_al_Implicit_motives.pdf)
+
+# Der Weg zum Sport 
+
+## Besteht ein Bedürfnis nach Veränderung?
+
+- Erst einmal muss Ihnen deutlich sein, ob Sie gerne mehr Sport treiben wollen
+- Ist das der Fall, fragen Sie sich im nächsten Schritt, was Sie daran hindert, Sport zu treiben
+
+## Hindernisse identifizieren
+
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/4eefd91211156033bd3fa9f601f280c2/57c5b1296da5/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+
+## Konkrete Ziele setzen 
+
+### Es gibt keine richtigen oder falschen Ziele, sondern nur individuell passende oder weniger passende Ziele
+
+### Ziele sollten so konkret wie möglich sein. Z.B.:
+
+- weniger Rückenschmerzen
 
 . . .
 
-
-Then add option arguments!
-
-::: {style="font-size: 60px;"}
-``` yaml
----
-format: 
-  html:
-    toc: true
-    code-fold: true
----
-```
-:::
+- mehr Beweglichkeit
 
 . . .
 
-Sub-options should be below the main format output and spacing matters!
-
-::: {style="font-size: 55px;"}
-``` yaml
----
-format: 
-  html:
-    option1: "text"
-    option2: logical
-    option3:
-      - sub-option
-      - sub-option
-    option4: [sub-option1, sub-option2]
----
-```
-:::
-
-## Why YAML?
-
-To avoid manually typing out all the options, every time!
+- einen Marathon laufen 
 
 . . .
 
-::: {style="font-size: 70px;"}
-```{.bash filename="terminal"}
-quarto render document.qmd --to html
-```
-:::
+- einen Marathon in unter 4 Stunden laufen 
 
-<br>
+## Spoken word
+
+### Denken Sie an den schönsten Moment beim oder kurz nach dem Sport, den Sie in den letzten 6 Monaten erlebt haben. 
 
 . . .
 
-::: {style="font-size: 70px;"}
-```{.bash filename="terminal"}
-quarto render document.qmd --to html -M code fold:true
-```
-:::
-
-<br>
+- was hat diesen Moment so besonders gemacht?
 
 . . .
 
-::: {style="font-size: 70px;"}
-```{.bash filename="terminal"}
-quarto render document.qmd --to html -M code-fold:true -P alpha:0.2 -P ratio:0.3
-```
-:::
+- 
 
-## Quarto workflow
 
-Executing the Quarto Render button in RStudio will call Quarto render in a background job - this will prevent Quarto rendering from cluttering up the R console, and gives you and easy way to stop.
 
-![](images/background-job.png)
 
 
-## Markdown
 
-> Quarto is based on Pandoc and uses its variation of markdown as its underlying document syntax. Pandoc markdown is an extended and slightly revised version of John Gruber's [Markdown](https://daringfireball.net/projects/markdown/) syntax.
-. . .
 
-> Markdown is a plain text format that is designed to be easy to write, and, even more importantly, easy to read
-
-
-## Text Formatting
-
-+-----------------------------------+-------------------------------+
-| Markdown Syntax                   | Output                        |
-+===================================+===============================+
-|     *italics* and **bold**        | *italics* and **bold**        |
-+-----------------------------------+-------------------------------+
-|     superscript^2^ / subscript~2~ | superscript^2^ / subscript~2~ |
-+-----------------------------------+-------------------------------+
-|     ~~strikethrough~~             | ~~strikethrough~~             |
-+-----------------------------------+-------------------------------+
-|     `verbatim code`               | `verbatim code`               |
-+-----------------------------------+-------------------------------+
-
-## Headings
-
-+---------------------+-----------------+
-| Markdown Syntax     | Output          |
-+=====================+=================+
-|     # Header 1      | # Header 1      |
-+---------------------+-----------------+
-|     ## Header 2     | ## Header 2     |
-+---------------------+-----------------+
-|     ### Header 3    | ### Header 3    |
-+---------------------+-----------------+
-|     #### Header 4   | #### Header 4   |
-+---------------------+-----------------+
-|     ##### Header 5  | ##### Header 5  |
-+---------------------+-----------------+
-|     ###### Header 6 | ###### Header 6 |
-+---------------------+-----------------+
-
-## Code
-
-::: {style="font-size: 55px;"}
-```{r}
-#| echo: fenced
-#| output-location: column
-#| label: fig-airquality
-#| fig-cap: Temperature and ozone level.
-#| warning: false
-library(ggplot2)
-ggplot(airquality, aes(Temp, Ozone)) + 
-  geom_point() + 
-  geom_smooth(method = "loess")
-```
-:::
-
-See [here](https://quarto.org/docs/computations/execution-options.html) for the different execution options!
-
-
-
-
-## Code, more than just R
-
-::: columns
-::: {.column width="50%"}
-```{python}
-#| echo: fenced
-#| eval: false
-#| label: fig-polar
-#| fig-cap: "A line plot on a polar axis"
-import numpy as np
-import matplotlib.pyplot as plt
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(
-  subplot_kw = {'projection': 'polar'} 
-)
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-:::
-
-::: {.column width="50%"}
-![](images/polar-axis.png){width="650px"}
-:::
-:::
-
-
-## Navigating in the terminal
-
-Because Quarto is a command line interface (CLI), there are times you'll need to use it via the terminal. A great overview of using the command line and navigating files/directories is available via the [Data Carpentries](https://datacarpentry.org/shell-genomics/02-the-filesystem/index.html) or a great interactive tool for understanding commands: <https://tldr.ostera.io>
-
-. . .
-
-+------------------------------------+-------------------------------------------------------+
-| Command                            | Action                                                |
-+====================================+=======================================================+
-| `pwd`                              | Print name of current working directory               |
-+------------------------------------+-------------------------------------------------------+
-| `cd`                               | Change current working directory                      |
-+------------------------------------+-------------------------------------------------------+
-| `ls`                               | List directory contents                               |
-+------------------------------------+-------------------------------------------------------+
-| `quarto --help`                    | Return `quarto` help docs                             |
-+------------------------------------+-------------------------------------------------------+
-| `mkdir howdy`                      | Make a new folder/directory called "howdy"            |
-+------------------------------------+-------------------------------------------------------+
-| `rm folder-name/some-file.qmd`     | Delete `some-file.qmd` in the `folder-name` directory |
-+------------------------------------+-------------------------------------------------------+
-
-# `r fontawesome::fa("laptop-code", "white")` Your Turn (15 min) {background-color="#447099" transition="slide-in"}
-
--   In RStudio, create a [`qmd` project](https://quarto.org/docs/projects/quarto-projects.html)
-- add some code and some text to the `.qmd` file
--   Render with the RStudio `Render ->` button
-
-<br>
-
--   Move to the (integrated) terminal and execute:
-
--   Render via terminal with `quarto render ....qmd --to pdf`
-
--   Compare to the HTML version
-
-
-# Using Zotero with R and Quarto {background-color="#a13c65"}
-
-
-## See instructions [here](https://gsverhoeven.github.io/post/zotero-rmarkdown-csl/)
-
-![](images/zotero.png)
-
-
-# Creating APA style papers with R and Quarto {background-color="#a13c65"}
-
-## See instructions [here](https://bookdown.org/yihui/rmarkdown-cookbook/word-template.html)
-
-![](images/word_int.png){width="250px"}
-
-# Code collaboration using Git and GitHub {background-color="#a13c65"}
-
-
-## Advantages of using Git and GitHub  
-
-. . .
-  
-
-::: {style="font-size: 1.2em"}
-- Contribute to open source projects, see [here](https://www.dataschool.io/how-to-contribute-on-github/) (almost all open source projects use GitHub)  🎈
-:::
-
-. . . 
-
-::: {style="font-size: 1.2em"}
-- Showcase your work 🎤 
-:::
-
-. . .
-
-::: {style="font-size: 1.2em"}
-- Track changes across versions  🔍 
-:::
-
-. . .
-
-::: {style="font-size: 1.2em"}
--  Collaborate on projects 👨‍🔬 👷‍♀️
-:::
-
-. . .
-
-::: {style="font-size: 1.2em"}
-- Various integration options 🤹‍♂️
-    - Amazon and Google Cloud; or use GitHub pages or Netlify to build websites based on your R files 
-:::
-
-## Version Control &mdash; Git and GitHub &mdash; Definitions
-
-::: {.incremental}
-### Git <img src="images/git.png" width="50px" >
-
-- a software that keeps track of versions of a set of files
-- it is *local* to you; the records are kept on your computer
-
-### GitHub <img src="images/github.png" width="70px" >
-
-- a hosting service that can keep the records
-- it is *remote* to you, like Dropbox
-- GitHub is specifically structured to keep records with Git
-:::
-
-##
-
-::: {.incremental}
-### Repository, or repo
-- a set of files whose records are kept together, by Git and/or on GitHub
-
-
-### To commit
-- to take a snapshot of a repository
-- it is local, the records are kept on your computer unless you push
-
-### To push
-- to move a copy of the records from Git to GitHub, from your computer to online server
-- it is like uploading (the new versions of) your files and sub-folders to a website
-:::
-
-##
-
-<figure>
-    <img src="images/repository.png" 
-    width="1300px" 
-    align="center">
-    <figcaption>
-    <a href="https://iqss.github.io/dss-rbuild/version-control.html">Source: https://iqss.github.io/dss-rbuild/version-control.html</a></figcaption>
-</figure>
-
-# Quick excourse: *Setting up Git and GitHub* {background-color="#DADEFD"}
-
-1) Read the instructions in the [Happy Git with R Book](https://happygitwithr.com/) and the [official GitHub guides](https://docs.github.com/en/get-started/quickstart/set-up-git) to install Git. [Installation instructions for Windows users](https://www.computerhope.com/issues/ch001927.htm)
-
-2) [Register a GitHub account](https://happygitwithr.com/github-acct.html)
-
-
-## Version Control &mdash; Git and GitHub &mdash; check setup
-
-. . .
-
-In the **terminal** 📱: 
-
-::: {style="font-size: 70px;"}
-```{.bash filename="terminal"}
-git --version
-```
-:::
-- you should see the Git version  ✅
-
-. . .
-
-In the **terminal** 📱: 
-
-::: {style="font-size: 70px;"}
-```{.bash filename="terminal"}
-git config --global user.name
-```
-:::
-- you should see the Git user name  ✅
-
-<br /> 
-
-. . .
-
-#### 🚫 If these steps did not work, go [here](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git) and set up Git
-
-#### You just don't want to use the terminal ❓ ▶ For version control in RStudio, see [here](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN), and particularly [**this video**](https://www.youtube.com/watch?v=megZYkCLMA4)
-
-## Version Control &mdash; Git and GitHub &mdash; connect local with remote
-
-::: columns
-::: {.column width="40%"}
-
-1) Go to GitHub and create a new repository 
-
-<img src="images/new_repo.png" width="500px">
-
-::: 
-::: {.column width="60%"}
-
-
-2) Fill in some info, create a public repository 
-<img src="images/testrepo.png" width="800px">
-
-::: 
-:::
-
-## 
-
-3) Follow the steps in Option 1: *"…create a new repository on the command line"*
-
-<img src="images/push.png" width="900px">
-
-
-## 
-
-
-4) In the **terminal** 📱, navigate to your Quarto project folder: 
-
-:::: {style="font-size: 70px;"}
-```{.bash filename="terminal"}
-cd project_folder
-```
-::::
-
-<br/>
-
-. . .
-
-5) initialize a git repo on your local machine:
-
-:::: {style="font-size: 70px;"}
-```{.bash filename="terminal"}
-git init
-```
-::::
-
-<br/>
-
-. . .
-
-6) create content you can then add in the next step (e.g., README file):
-
-:::: {style="font-size: 70px;"}
-```{.bash filename="terminal"}
-touch README.md
-```
-::::
-
-##
-
-7) stage all the content in that folder to be added:
-
-:::: {style="font-size: 70px;"}
-```{.bash filename="terminal"}
-git add .
-```
-::::
-
-
-<br/>
-
-. . .
-
-8) stage all the content in that folder to be committed: 
-
-:::: {style="font-size: 70px;"}
-```{.bash filename="terminal"}
-git commit -m "add empty readme"
-```
-::::
-
-
-##
-
-9) connect local repo to the remote repo. Substitute the link with your repo URL!
-
-:::: {style="font-size: 70px;"}
-```{.bash filename="terminal"}
-git remote add origin https://github.com/AnneOkk/testrepo.git
-```
-::::
-
-
-<br/>
-
-. . .
-
-10) push all the content from Git to GitHub:
-
-:::: {style="font-size: 70px;"}
-```{.bash filename="terminal"}
-git push origin master
-```
-::::
-
-
-<br/>
-
-. . .
-
-<img src="images/success.png" width="800px"/>
-
-
-### 🎈 The pushed files should appear in your GitHub repository 🎈
-
-
-## Version Control &mdash; Git and GitHub &mdash; collaborating
-
-
-### Imagine... 🤔
-
-. . .
-
-- you work in a team of data scientists/ data enthusiastic researchers 🧙🧙🏿🧙‍♀️🧙🏻‍♀️
-
-. . .
-
-- you want to be able to work together on a data analysis project 👨‍💻👩‍💻 👨‍💻👩‍💻
-
-. . .
-
-- you want to keep track of what the others do and finally merge individual contributions into one overall project  ✨ 💾 ✨
-
-. . .
-
-#### But how ❓ 🤷 
-
-
-# Version Control &mdash; Git and GitHub &mdash; collaborating {background-color="#a13c65"}
-
-## Scenario 1 - you are owner/ collaborator
-
-
-1) Go to the GitHub repository you are working on as a team 
-
-. . .
-
-2) In the terminal 📱, navigate to where you want to store the project files and type:
-
-:::: {style="font-size: 60px;"}
-```{.bash filename="terminal"}
-git clone https://github.com/AnneOkk/testrepo.git
-```
-::::
-
-. . .
-
-<img src="images/clone.png" width="800px"/>
-
-##
-
-3) Next, you would always want to make sure that you are up to date with what has changed in the remote repository
-
-. . .
-
-In the 📱 terminal 📱, type:
-
-:::: {style="font-size: 60px;"}
-```{.bash filename="terminal"}
-git pull origin master
-```
-::::
-
-. . .
-
-<br/>
-
-4) Create a new branch to add changes that belong to a novel feature you are working on (this prevents messing up the master branch)
-
-:::: {style="font-size: 70px;"}
-```{.bash filename="terminal"}
-git checkout -b "cool-feature"
-```
-::::
-
-. . .
-
-<br/>
-
-5) Now make some changes (e.g., add the new cool feature to the code)
-
-##
-
-6) Add and commit the files 
-...through the usual workflow 😴
-
-:::: {style="font-size: 60px;"}
-```{.bash filename="terminal"}
-git add .
-git commit -m "new feature file added"
-```
-::::
-
-. . .
-
-<br/>
-
- 🚧 👀 BUT you push the changes to the newly created branch to prevent messing up the master branch! 👀 🚧
-
-:::: {style="font-size: 60px;"}
-```{.bash filename="terminal"}
-git push origin cool-feature
-```
-::::
-
-. . .
-
-<img src="images/pull.png" width="1000px"/>
-
-##
-
-7) On GitHub, create a pull request
-
-<img src="images/pull_req.png" width="700px"/>
-
-. . .
-
-<br/>
-
-8) Once all issues are resolved, your changes will be merged into the master branch 🥳 
-
-##
-
-9) Checkout to  master branch
-
-:::: {style="font-size: 60px;"}
-```{.bash filename="terminal"}
-git checkout master
-```
-::::
-
-. . .
-
-<br/>
-
-10) Pull changes 
-
-:::: {style="font-size: 60px;"}
-```{.bash filename="terminal"}
-git pull origin master
-```
-::::
-
-. . .
-
-<br/>
-
-
-11) Checkout a new branch for missing feature.
-
-:::: {style="font-size: 60px;"}
-```{.bash filename="terminal"}
-git checkout -b data-reader
-```
-::::
-
-<br/>
-
-. . .
-
-### ... And so on ...
-
-
-## Scenario 2 - you want to contribute to an open science project
-
-. . .
-
-1) In GitHub, navigate to the project you want to contribute to 
-
-. . .
-
-2) Fork the repo!
-
-<img src="images/fork.png" width="700px"/>
-
-. . .
-
-3) Clone the new repo! 
- 
-:::: {style="font-size: 70px;"}
-```{.bash filename="terminal"}
-git clone https://github.com/AnneOkk/Testrepo-1.git
-```
-::::
-
-. . .
-
-4) Make your changes and then add, commit, and push to your master branch 
-
-. . .
-
-## 
-
-5) On GitHub, go back to the original repository and create a pull request. 
-
-You may need to click "compare across forks"
-
-<img src="images/successful_pull.png" width="700px"/>
-
-## ... On the other side (repo owner)
-
-![](images/review_pull.png){width="250px"}
-
-
-Open and review the pull request! 🔍
-
-If you're happy with the changes, merge! 👍
-
-Otherwise, request additional changes in comments. 💬
-
-. . .
-
-<br/>
-
-### 🎊 Yey, you're all set to contribute to open science projects on GitHub! 🎊
-
-
-# `r fontawesome::fa("laptop-code", "white")` Your Turn (15 min) {background-color="#447099" transition="slide-in"}
-
-0. [Get Git and GitHub up and running] 
-
-1.  Connect your local R project folder with a GitHub repository
-
-2. Change some of the content in R, save, and then push the changes to GitHub
-
-:::: {style="font-size: 70px;"}
-```{.bash filename="terminal"}
-git add .
-git commit -m "senseful commit message that describes the change(s)"
-git push origin master
-```
-::::
-
-<br /> 
-
-3. [OPTIONAL] Create a pull request for your own repository and merge the changes into the master branch 
-
-
-# Integrating osf with GitHub {background-color="#a13c65"}
-
-## Integrating osf with GitHub
-
-1) Create your osf project 
-
-. . .
-
-2) Enable GitHub in Add-ons
-
-<img src="images/osf_int.png" width="850px"/>
-
-##
-
-3) Import GitHub Account
-
-<img src="images/osf_imp.png" width="600px"/>
-
-## 
-
-### 4. Select Repo
-
-<img src="images/osf_sel.png" width="800px"/>
-
-. . .
-
-### 🎊 Yey, you're all set to connect your GitHub content to osf! 🎊
 
 
 ## ...And there is so much more! {background-color="#a13c65"}

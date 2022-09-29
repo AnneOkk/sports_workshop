@@ -9,7 +9,8 @@
 <link href="slides_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.1.189">
 
-  <title>Data analysis with R and Quarto + Collaboration using GitHub</title>
+  <meta name="author" content="Anne-Kathrin Kleine">
+  <title>Körperliche Fitness – Sport als Hilfsmittel zur Stressbewältigung im Arbeitsalltag</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -27,70 +28,6 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="slides_files/libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -388,1079 +325,334 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-color="#a13c65" class="center">
-  <h1 class="title">Data analysis with R and Quarto + Collaboration using GitHub</h1>
-  <p class="subtitle">Introductory workshop for the Human AI Team, Sep 2022</p>
+<section id="title-slide" data-background-color="#a13c65" data-background-image="images/Logo_LMU_Center_full.png" data-background-position="top 5px right 20px" data-background-size="350px" class="center">
+  <h1 class="title">Körperliche Fitness – Sport als Hilfsmittel zur Stressbewältigung im Arbeitsalltag</h1>
+  <p class="subtitle">Den Spaß am Sport (wieder-)entdecken – auch mit vollem Terminkalender!</p>
+  <p class="author">Anne-Kathrin Kleine</p>
 </section>
 
-<section id="overview" class="slide level2 center">
-<h2>Overview</h2>
-<p>What I will present today:</p>
-<ul>
-<li>How to write, share, and present code and text using R and Quarto</li>
-<li>How to render code and text into different output formats (including presentations and APA style articles in word)</li>
-<li>How to use Zotero with R</li>
-<li>How to collaborate using Git and GitHub (only introduction)</li>
-</ul>
-<p>…and some other stuff</p>
+<section id="vorstellungsrunde" class="slide level2" data-background-image="images/hello.jpg">
+<h2>…Vorstellungsrunde</h2>
 </section>
-<section id="resources" class="slide level2 center">
-<h2>Resources</h2>
-<ul>
-<li>many of the Quarto-specific slides adapted from <a href="https://github.com/jthomasmock/quarto-2hr-webinar">Thomas Mock’s presentation</a></li>
-<li>many helpful resources may be found in <a href="https://github.com/mcanouil/awesome-quarto">this GitHub repository</a></li>
-</ul>
-</section>
-<section id="workshop-prep-do-it-now" class="slide level2 center">
-<h2>Workshop Prep (do it now!)</h2>
-<ul>
-<li>Are you on the latest version of RStudio i.e.&nbsp;<a href="https://www.rstudio.com/products/rstudio/download/#download"><code>v2022.07.1</code> or later</a>?</li>
-</ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>pkg_list <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
-<span id="cb1-2"><a href="#cb1-2"></a>  <span class="st">"tidyverse"</span>, <span class="st">"gt"</span>, <span class="st">"gtExtras"</span>, <span class="st">"reactable"</span>, <span class="st">"ggiraph"</span>, <span class="st">"here"</span>, <span class="st">"quarto"</span>,</span>
-<span id="cb1-3"><a href="#cb1-3"></a>  <span class="st">"rmarkdown"</span>, <span class="st">"gtsummary"</span>, <span class="st">"palmerpenguins"</span>, <span class="st">"fs"</span>, <span class="st">"skimr"</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a>  )</span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="fu">install.packages</span>(pkg_list)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="how-does-rmarkdown-work" class="slide level2 center">
-<h2>How does RMarkdown work?</h2>
-
-<img data-src="images/rmd-knitr.png" alt="A diagram of how a RMD is turned into output formats via knitr and pandoc" class="r-stretch"></section>
-<section id="quarto-more-than-just-knitr" class="slide level2 center">
-<h2>Quarto, more than <em>just</em> <code>knitr</code></h2>
+<section id="vorstellungsrunde-1" class="slide level2" data-background-image="images/hello.jpg" data-background-opacity="0.2">
+<h2>…Vorstellungsrunde</h2>
+<p><img data-src="images/Logo_LMU_Center_full.png" class="absolute" style="top: -84px; right: -340px; width: 450px; "></p>
 <div class="fragment">
-<p><img data-src="images/qmd-knitr.jpeg"></p>
+<h3 id="ihr-name">Ihr Name 👋</h3>
+<h3 id="ihr-lieblingssport">Ihr Lieblingssport 🏌</h3>
 </div>
 </section>
-<section id="quarto-more-than-just-knitr-1" class="slide level2 center">
-<h2>Quarto, more than <em>just</em> <code>knitr</code></h2>
-
-<img data-src="images/qmd-jupyter.jpeg" class="r-stretch"></section>
-<section id="so-what-is-quarto" class="slide level2 center">
-<h2>So what is Quarto?</h2>
-<blockquote>
-<p>Quarto is a command line interface (CLI) that renders plain text formats (<code>.qmd</code>, <code>.rmd</code>, <code>.md</code>) OR mixed formats (<code>.ipynb</code>/Jupyter notebook) into static PDF/Word/HTML reports, books, websites, presentations and more</p>
-</blockquote>
-</section>
-<section id="one-install-batteries-included" class="slide level2 center">
-<h2>One install, “Batteries included”</h2>
-<ul>
-<li><p>Quarto is bundled and comes pre-installed with RStudio <a href="https://www.rstudio.com/products/rstudio/download/#download">v2022.07.1</a> and beyond!</p></li>
-<li><p><a href="https://quarto.org/docs/computations/r.html#installation">more infos</a></p></li>
-</ul>
-</section>
-<section id="rendering" class="slide level2 center">
-<h2>Rendering</h2>
+<section id="technische-hinweise" class="slide level2">
+<h2>Technische Hinweise</h2>
+<p><img data-src="images/Logo_LMU_Center_full.png" class="absolute" style="top: -84px; right: -340px; width: 450px; "></p>
 <ol type="1">
-<li>Render button</li>
+<li>Die Mikrofone sind i.d.R. stumm, um Hintergrundgeräusche zu reduzieren.</li>
 </ol>
 <div class="fragment">
-<p><img data-src="https://quarto.org/docs/tools/images/rstudio-render.png" alt="A screenshot of the render button in RStudio" width="1000"></p>
-</div>
-</section>
-<section id="rendering-1" class="slide level2 center">
-<h2>Rendering</h2>
 <ol start="2" type="1">
-<li>System shell via <code>quarto render</code></li>
+<li>Bitte Zeichen geben, um Wortmeldungen zu signalisieren.</li>
 </ol>
-<div style="font-size: 60px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
 </div>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">quarto</span> render document.qmd <span class="co"># defaults to html</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="ex">quarto</span> render document.qmd <span class="at">--to</span> pdf</span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="ex">quarto</span> render document.qmd <span class="at">--to</span> docx</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</section>
-<section>
-<section id="quick-excourse-power-shell-and-terminal" class="title-slide slide level1 center" data-background-color="#DADEFD">
-<h1>Quick excourse: <em>Power Shell</em> and <em>Terminal</em></h1>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><a href="https://learn.microsoft.com/en-us/powershell/scripting/discover-powershell?view=powershell-7.2">Windows Power Shell</a></p>
-<ul>
-<li>Click Start, type PowerShell, right-click Windows PowerShell, and then click Run as administrator</li>
-</ul>
-<p><img data-src="images/power_shell.png" width="600"></p>
-<p><a href="https://upload.wikimedia.org/wikipedia/de/f/f6/Windowspowershell_unter_Windows_8.png">Image source: Wikipedia</a></p>
-</div><div class="column" style="width:50%;">
-<p><a href="https://support.apple.com/en-gb/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac">Mac Terminal</a></p>
-<ul>
-<li>Click the Launchpad icon in the Dock, type Terminal in the search field, then click Terminal</li>
-</ul>
-<p><img data-src="images/terminal.png" width="700"></p>
-<p><a href="https://en.wikipedia.org/wiki/Terminal_(macOS)#/media/File:Appleterminal2.png">Image source: Wikipedia</a></p>
-</div>
-</div>
-</section>
-<section id="rendering-2" class="slide level2 center">
-<h2>Rendering</h2>
+<div class="fragment">
 <ol start="3" type="1">
-<li>R console via <code>quarto</code> R package</li>
-</ol>
-<div style="font-size: 60px;">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">library</span>(quarto)</span>
-<span id="cb3-2"><a href="#cb3-2"></a><span class="fu">quarto_render</span>(<span class="st">"document.qmd"</span>) <span class="co"># defaults to html</span></span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="fu">quarto_render</span>(<span class="st">"document.qmd"</span>, <span class="at">output_format =</span> <span class="st">"pdf"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</section></section>
-<section>
-<section id="change-your-mental-model" class="title-slide slide level1 center" data-background-color="#a13c65">
-<h1>Change Your Mental Model</h1>
-
-</section>
-<section id="section" class="slide level2 center">
-<h2></h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>Source</p>
-<p><img data-src="images/word.png" alt="A blank Word document" width="700"></p>
-</div><div class="column" style="width:50%;">
-<p>Output</p>
-<p><img data-src="images/word.png" alt="A blank Word document" width="700"></p>
-</div>
-</div>
-</section>
-<section id="section-1" class="slide level2 center">
-<h2></h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>Source</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "ggplot2 demo"</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Norah Jones"</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "5/22/2021"</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span><span class="co"> </span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co">    fig-width: 8</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co">    fig-height: 4</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: true</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="fu">## Air Quality</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>@fig-airquality further explores the impact of temperature </span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  on ozone level.</span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-airquality</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: Temperature and ozone level.</span></span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: false</span></span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(airquality, <span class="fu">aes</span>(Temp, Ozone)) <span class="sc">+</span> </span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span> </span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"loess"</span></span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div><div class="column" style="width:50%;">
-<p>Output <img data-src="https://quarto.org/images/hello-knitr.png"></p>
-</div>
-</div>
-</section></section>
-<section>
-<section id="working-with-a-.qmd" class="title-slide slide level1 center" data-background-color="#a13c65">
-<h1>Working with a <code>.qmd</code></h1>
-
-</section>
-<section id="a-.qmd-is-a-plain-text-file" class="slide level2 center">
-<h2>A <code>.qmd</code> is a plain text file</h2>
-<div class="fragment">
-<ul>
-<li>Metadata (YAML)</li>
-</ul>
-<div style="font-size: 60px;">
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> html</span></span>
-<span id="cb5-2"><a href="#cb5-2"></a><span class="fu">engine</span><span class="kw">:</span><span class="at"> knitr</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<div class="fragment">
-<ul>
-<li>Code</li>
-</ul>
-<div style="font-size: 60px;">
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource markdown code number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1"></a><span class="in">```{r}</span></span>
-<span id="cb6-2"><a href="#cb6-2"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb6-3"><a href="#cb6-3"></a>mtcars <span class="sc">|&gt;</span> </span>
-<span id="cb6-4"><a href="#cb6-4"></a>  <span class="fu">group_by</span>(cyl) <span class="sc">|&gt;</span> </span>
-<span id="cb6-5"><a href="#cb6-5"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(mpg))</span>
-<span id="cb6-6"><a href="#cb6-6"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<div class="fragment">
-<ul>
-<li>Text</li>
-</ul>
-<div style="font-size: 60px;">
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><a href="#cb7-1"></a><span class="fu"># Heading 1</span></span>
-<span id="cb7-2"><a href="#cb7-2"></a>This is a sentence with some **bold text**, *italic text* and an </span>
-<span id="cb7-3"><a href="#cb7-3"></a><span class="al">![image](image.png)</span>{fig-alt="Alt text for this image"}.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</section>
-<section id="metadata-yaml" class="slide level2 center">
-<h2>Metadata: YAML</h2>
-<p>The <a href="https://yaml.org/">YAML</a> metadata or header is:</p>
-<blockquote>
-<p>processed in many stages of the rendering process and can influence the final document in many different ways. It is placed at the very beginning of the document and is read by each of Pandoc, Quarto and <code>knitr</code>. Along the way, the information that it contains can affect the code, content, and the rendering process.</p>
-</blockquote>
-</section>
-<section id="yaml" class="slide level2 center">
-<h2>YAML</h2>
-<div style="font-size: 80px;">
-<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb8-1"><a href="#cb8-1"></a><span class="pp">---</span></span>
-<span id="cb8-2"><a href="#cb8-2"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"My Document"</span></span>
-<span id="cb8-3"><a href="#cb8-3"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> </span></span>
-<span id="cb8-4"><a href="#cb8-4"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
-<span id="cb8-5"><a href="#cb8-5"></a><span class="at">    </span><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
-<span id="cb8-6"><a href="#cb8-6"></a><span class="at">    </span><span class="fu">code-fold</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
-<span id="cb8-7"><a href="#cb8-7"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="output-options" class="slide level2 center">
-<h2>Output Options</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div style="font-size: 60px;">
-<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb9-1"><a href="#cb9-1"></a><span class="pp">---</span></span>
-<span id="cb9-2"><a href="#cb9-2"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> something</span></span>
-<span id="cb9-3"><a href="#cb9-3"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb10-1"><a href="#cb10-1"></a><span class="pp">---</span></span>
-<span id="cb10-2"><a href="#cb10-2"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> html</span></span>
-<span id="cb10-3"><a href="#cb10-3"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb11-1"><a href="#cb11-1"></a><span class="pp">---</span></span>
-<span id="cb11-2"><a href="#cb11-2"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> pdf</span></span>
-<span id="cb11-3"><a href="#cb11-3"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="sourceCode" id="cb12"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb12-1"><a href="#cb12-1"></a><span class="pp">---</span></span>
-<span id="cb12-2"><a href="#cb12-2"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> revealjs</span></span>
-<span id="cb12-3"><a href="#cb12-3"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<div class="fragment">
-<p>Then add option arguments!</p>
-<div style="font-size: 60px;">
-<div class="sourceCode" id="cb13"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb13-1"><a href="#cb13-1"></a><span class="pp">---</span></span>
-<span id="cb13-2"><a href="#cb13-2"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> </span></span>
-<span id="cb13-3"><a href="#cb13-3"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
-<span id="cb13-4"><a href="#cb13-4"></a><span class="at">    </span><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
-<span id="cb13-5"><a href="#cb13-5"></a><span class="at">    </span><span class="fu">code-fold</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
-<span id="cb13-6"><a href="#cb13-6"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<div class="fragment">
-<p>Sub-options should be below the main format output and spacing matters!</p>
-<div style="font-size: 55px;">
-<div class="sourceCode" id="cb14"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb14-1"><a href="#cb14-1"></a><span class="pp">---</span></span>
-<span id="cb14-2"><a href="#cb14-2"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> </span></span>
-<span id="cb14-3"><a href="#cb14-3"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
-<span id="cb14-4"><a href="#cb14-4"></a><span class="at">    </span><span class="fu">option1</span><span class="kw">:</span><span class="at"> </span><span class="st">"text"</span></span>
-<span id="cb14-5"><a href="#cb14-5"></a><span class="at">    </span><span class="fu">option2</span><span class="kw">:</span><span class="at"> logical</span></span>
-<span id="cb14-6"><a href="#cb14-6"></a><span class="at">    </span><span class="fu">option3</span><span class="kw">:</span></span>
-<span id="cb14-7"><a href="#cb14-7"></a><span class="at">      </span><span class="kw">-</span><span class="at"> sub-option</span></span>
-<span id="cb14-8"><a href="#cb14-8"></a><span class="at">      </span><span class="kw">-</span><span class="at"> sub-option</span></span>
-<span id="cb14-9"><a href="#cb14-9"></a><span class="at">    </span><span class="fu">option4</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="at">sub-option1</span><span class="kw">,</span><span class="at"> sub-option2</span><span class="kw">]</span></span>
-<span id="cb14-10"><a href="#cb14-10"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</section>
-<section id="why-yaml" class="slide level2 center">
-<h2>Why YAML?</h2>
-<p>To avoid manually typing out all the options, every time!</p>
-<div class="fragment">
-<div style="font-size: 70px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb15"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1"></a><span class="ex">quarto</span> render document.qmd <span class="at">--to</span> html</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<p><br></p>
-</div>
-<div class="fragment">
-<div style="font-size: 70px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb16"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1"></a><span class="ex">quarto</span> render document.qmd <span class="at">--to</span> html <span class="at">-M</span> code fold:true</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<p><br></p>
-</div>
-<div class="fragment">
-<div style="font-size: 70px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb17"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1"></a><span class="ex">quarto</span> render document.qmd <span class="at">--to</span> html <span class="at">-M</span> code-fold:true <span class="at">-P</span> alpha:0.2 <span class="at">-P</span> ratio:0.3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="quarto-workflow" class="slide level2 center">
-<h2>Quarto workflow</h2>
-<p>Executing the Quarto Render button in RStudio will call Quarto render in a background job - this will prevent Quarto rendering from cluttering up the R console, and gives you and easy way to stop.</p>
-
-<img data-src="images/background-job.png" class="r-stretch"></section>
-<section id="markdown" class="slide level2 center">
-<h2>Markdown</h2>
-<blockquote>
-<p>Quarto is based on Pandoc and uses its variation of markdown as its underlying document syntax. Pandoc markdown is an extended and slightly revised version of John Gruber’s <a href="https://daringfireball.net/projects/markdown/">Markdown</a> syntax. . . .</p>
-</blockquote>
-<blockquote>
-<p>Markdown is a plain text format that is designed to be easy to write, and, even more importantly, easy to read</p>
-</blockquote>
-</section>
-<section id="text-formatting" class="slide level2 center">
-<h2>Text Formatting</h2>
-<table style="width:94%;">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 44%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Markdown Syntax</th>
-<th>Output</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>*italics* and **bold**</code></pre></td>
-<td><em>italics</em> and <strong>bold</strong></td>
-</tr>
-<tr class="even">
-<td><pre><code>superscript^2^ / subscript~2~</code></pre></td>
-<td>superscript<sup>2</sup> / subscript<sub>2</sub></td>
-</tr>
-<tr class="odd">
-<td><pre><code>~~strikethrough~~</code></pre></td>
-<td><del>strikethrough</del></td>
-</tr>
-<tr class="even">
-<td><pre><code>`verbatim code`</code></pre></td>
-<td><code>verbatim code</code></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="headings" class="slide level2 center">
-<h2>Headings</h2>
-<table style="width:56%;">
-<colgroup>
-<col style="width: 30%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Markdown Syntax</th>
-<th>Output</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code># Header 1</code></pre></td>
-<td><h1 id="header-1">Header 1</h1></td>
-</tr>
-<tr class="even">
-<td><pre><code>## Header 2</code></pre></td>
-<td><h2 id="header-2">Header 2</h2></td>
-</tr>
-<tr class="odd">
-<td><pre><code>### Header 3</code></pre></td>
-<td><h3 id="header-3">Header 3</h3></td>
-</tr>
-<tr class="even">
-<td><pre><code>#### Header 4</code></pre></td>
-<td><h4 id="header-4">Header 4</h4></td>
-</tr>
-<tr class="odd">
-<td><pre><code>##### Header 5</code></pre></td>
-<td><h5 id="header-5">Header 5</h5></td>
-</tr>
-<tr class="even">
-<td><pre><code>###### Header 6</code></pre></td>
-<td><h6 id="header-6">Header 6</h6></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="code" class="slide level2 center">
-<h2>Code</h2>
-<div style="font-size: 55px;">
-<div class="cell" data-output-location="column">
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb28-1"><a href="#cb28-1"></a><span class="in">```{r}</span></span>
-<span id="cb28-2"><a href="#cb28-2"></a><span class="co">#| output-location: column</span></span>
-<span id="cb28-3"><a href="#cb28-3"></a><span class="co">#| label: fig-airquality</span></span>
-<span id="cb28-4"><a href="#cb28-4"></a><span class="co">#| fig-cap: Temperature and ozone level.</span></span>
-<span id="cb28-5"><a href="#cb28-5"></a><span class="co">#| warning: false</span></span>
-<span id="cb28-6"><a href="#cb28-6"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb28-7"><a href="#cb28-7"></a><span class="fu">ggplot</span>(airquality, <span class="fu">aes</span>(Temp, Ozone)) <span class="sc">+</span> </span>
-<span id="cb28-8"><a href="#cb28-8"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span> </span>
-<span id="cb28-9"><a href="#cb28-9"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"loess"</span>)</span>
-<span id="cb28-10"><a href="#cb28-10"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div id="fig-airquality" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="slides_files/figure-revealjs/fig-airquality-1.png" width="960"></p>
-<p></p><figcaption>Figure&nbsp;1: Temperature and ozone level.</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<p>See <a href="https://quarto.org/docs/computations/execution-options.html">here</a> for the different execution options!</p>
-</section>
-<section id="code-more-than-just-r" class="slide level2 center">
-<h2>Code, more than just R</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb29-1"><a href="#cb29-1"></a><span class="in">```{python}</span></span>
-<span id="cb29-2"><a href="#cb29-2"></a><span class="co">#| eval: false</span></span>
-<span id="cb29-3"><a href="#cb29-3"></a><span class="co">#| label: fig-polar</span></span>
-<span id="cb29-4"><a href="#cb29-4"></a><span class="co">#| fig-cap: "A line plot on a polar axis"</span></span>
-<span id="cb29-5"><a href="#cb29-5"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb29-6"><a href="#cb29-6"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb29-7"><a href="#cb29-7"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
-<span id="cb29-8"><a href="#cb29-8"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
-<span id="cb29-9"><a href="#cb29-9"></a>fig, ax <span class="op">=</span> plt.subplots(</span>
-<span id="cb29-10"><a href="#cb29-10"></a>  subplot_kw <span class="op">=</span> {<span class="st">'projection'</span>: <span class="st">'polar'</span>} </span>
-<span id="cb29-11"><a href="#cb29-11"></a>)</span>
-<span id="cb29-12"><a href="#cb29-12"></a>ax.plot(theta, r)</span>
-<span id="cb29-13"><a href="#cb29-13"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
-<span id="cb29-14"><a href="#cb29-14"></a>ax.grid(<span class="va">True</span>)</span>
-<span id="cb29-15"><a href="#cb29-15"></a>plt.show()</span>
-<span id="cb29-16"><a href="#cb29-16"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div><div class="column" style="width:50%;">
-<p><img data-src="images/polar-axis.png" width="650"></p>
-</div>
-</div>
-</section>
-<section id="navigating-in-the-terminal" class="slide level2 center">
-<h2>Navigating in the terminal</h2>
-<p>Because Quarto is a command line interface (CLI), there are times you’ll need to use it via the terminal. A great overview of using the command line and navigating files/directories is available via the <a href="https://datacarpentry.org/shell-genomics/02-the-filesystem/index.html">Data Carpentries</a> or a great interactive tool for understanding commands: <a href="https://tldr.ostera.io" class="uri">https://tldr.ostera.io</a></p>
-<div class="fragment">
-<table>
-<colgroup>
-<col style="width: 39%">
-<col style="width: 60%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Command</th>
-<th>Action</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>pwd</code></td>
-<td>Print name of current working directory</td>
-</tr>
-<tr class="even">
-<td><code>cd</code></td>
-<td>Change current working directory</td>
-</tr>
-<tr class="odd">
-<td><code>ls</code></td>
-<td>List directory contents</td>
-</tr>
-<tr class="even">
-<td><code>quarto --help</code></td>
-<td>Return <code>quarto</code> help docs</td>
-</tr>
-<tr class="odd">
-<td><code>mkdir howdy</code></td>
-<td>Make a new folder/directory called “howdy”</td>
-</tr>
-<tr class="even">
-<td><code>rm folder-name/some-file.qmd</code></td>
-<td>Delete <code>some-file.qmd</code> in the <code>folder-name</code> directory</td>
-</tr>
-</tbody>
-</table>
-</div>
-</section></section>
-<section id="your-turn-15-min" class="title-slide slide level1 center" data-background-color="#447099" data-transition="slide-in">
-<h1><svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M128 96h384v256h64V80C576 53.63 554.4 32 528 32h-416C85.63 32 64 53.63 64 80V352h64V96zM624 384h-608C7.25 384 0 391.3 0 400V416c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.3 632.8 384 624 384zM365.9 286.2C369.8 290.1 374.9 292 380 292s10.23-1.938 14.14-5.844l48-48c7.812-7.813 7.812-20.5 0-28.31l-48-48c-7.812-7.813-20.47-7.813-28.28 0c-7.812 7.813-7.812 20.5 0 28.31l33.86 33.84l-33.86 33.84C358 265.7 358 278.4 365.9 286.2zM274.1 161.9c-7.812-7.813-20.47-7.813-28.28 0l-48 48c-7.812 7.813-7.812 20.5 0 28.31l48 48C249.8 290.1 254.9 292 260 292s10.23-1.938 14.14-5.844c7.812-7.813 7.812-20.5 0-28.31L240.3 224l33.86-33.84C281.1 182.4 281.1 169.7 274.1 161.9z"></path></svg> Your Turn (15 min)</h1>
-<ul>
-<li>In RStudio, create a <a href="https://quarto.org/docs/projects/quarto-projects.html"><code>qmd</code> project</a></li>
-<li>add some code and some text to the <code>.qmd</code> file</li>
-<li>Render with the RStudio <code>Render -&gt;</code> button</li>
-</ul>
-<p><br></p>
-<ul>
-<li><p>Move to the (integrated) terminal and execute:</p></li>
-<li><p>Render via terminal with <code>quarto render ....qmd --to pdf</code></p></li>
-<li><p>Compare to the HTML version</p></li>
-</ul>
-</section>
-
-<section>
-<section id="using-zotero-with-r-and-quarto" class="title-slide slide level1 center" data-background-color="#a13c65">
-<h1>Using Zotero with R and Quarto</h1>
-
-</section>
-<section id="see-instructions-here" class="slide level2 center">
-<h2>See instructions <a href="https://gsverhoeven.github.io/post/zotero-rmarkdown-csl/">here</a></h2>
-
-<img data-src="images/zotero.png" class="r-stretch"></section></section>
-<section>
-<section id="creating-apa-style-papers-with-r-and-quarto" class="title-slide slide level1 center" data-background-color="#a13c65">
-<h1>Creating APA style papers with R and Quarto</h1>
-
-</section>
-<section id="see-instructions-here-1" class="slide level2 center">
-<h2>See instructions <a href="https://bookdown.org/yihui/rmarkdown-cookbook/word-template.html">here</a></h2>
-
-<img data-src="images/word_int.png" width="250" class="r-stretch"></section></section>
-<section>
-<section id="code-collaboration-using-git-and-github" class="title-slide slide level1 center" data-background-color="#a13c65">
-<h1>Code collaboration using Git and GitHub</h1>
-
-</section>
-<section id="advantages-of-using-git-and-github" class="slide level2 center">
-<h2>Advantages of using Git and GitHub</h2>
-<div class="fragment">
-<div style="font-size: 1.2em">
-<ul>
-<li>Contribute to open source projects, see <a href="https://www.dataschool.io/how-to-contribute-on-github/">here</a> (almost all open source projects use GitHub) 🎈</li>
-</ul>
-</div>
-</div>
-<div class="fragment">
-<div style="font-size: 1.2em">
-<ul>
-<li>Showcase your work 🎤</li>
-</ul>
-</div>
-</div>
-<div class="fragment">
-<div style="font-size: 1.2em">
-<ul>
-<li>Track changes across versions 🔍</li>
-</ul>
-</div>
-</div>
-<div class="fragment">
-<div style="font-size: 1.2em">
-<ul>
-<li>Collaborate on projects 👨‍🔬 👷‍♀️</li>
-</ul>
-</div>
-</div>
-<div class="fragment">
-<div style="font-size: 1.2em">
-<ul>
-<li>Various integration options 🤹‍♂️
-<ul>
-<li>Amazon and Google Cloud; or use GitHub pages or Netlify to build websites based on your R files</li>
-</ul></li>
-</ul>
-</div>
-</div>
-</section>
-<section id="version-control-git-and-github-definitions" class="slide level2 center">
-<h2>Version Control — Git and GitHub — Definitions</h2>
-<div>
-<h3 id="git">Git <img src="images/git.png" width="50px"></h3>
-<ul>
-<li class="fragment">a software that keeps track of versions of a set of files</li>
-<li class="fragment">it is <em>local</em> to you; the records are kept on your computer</li>
-</ul>
-<h3 id="github">GitHub <img src="images/github.png" width="70px"></h3>
-<ul>
-<li class="fragment">a hosting service that can keep the records</li>
-<li class="fragment">it is <em>remote</em> to you, like Dropbox</li>
-<li class="fragment">GitHub is specifically structured to keep records with Git</li>
-</ul>
-</div>
-</section>
-<section id="section-2" class="slide level2 center">
-<h2></h2>
-<div>
-<h3 id="repository-or-repo">Repository, or repo</h3>
-<ul>
-<li class="fragment">a set of files whose records are kept together, by Git and/or on GitHub</li>
-</ul>
-<h3 id="to-commit">To commit</h3>
-<ul>
-<li class="fragment">to take a snapshot of a repository</li>
-<li class="fragment">it is local, the records are kept on your computer unless you push</li>
-</ul>
-<h3 id="to-push">To push</h3>
-<ul>
-<li class="fragment">to move a copy of the records from Git to GitHub, from your computer to online server</li>
-<li class="fragment">it is like uploading (the new versions of) your files and sub-folders to a website</li>
-</ul>
-</div>
-</section>
-<section id="section-3" class="slide level2 center">
-<h2></h2>
-<figure>
-<img src="images/repository.png" width="1300px" align="center">
-<figcaption>
-<a href="https://iqss.github.io/dss-rbuild/version-control.html">Source: https://iqss.github.io/dss-rbuild/version-control.html</a>
-</figcaption>
-</figure>
-</section></section>
-<section>
-<section id="quick-excourse-setting-up-git-and-github" class="title-slide slide level1 center" data-background-color="#DADEFD">
-<h1>Quick excourse: <em>Setting up Git and GitHub</em></h1>
-<ol type="1">
-<li><p>Read the instructions in the <a href="https://happygitwithr.com/">Happy Git with R Book</a> and the <a href="https://docs.github.com/en/get-started/quickstart/set-up-git">official GitHub guides</a> to install Git. <a href="https://www.computerhope.com/issues/ch001927.htm">Installation instructions for Windows users</a></p></li>
-<li><p><a href="https://happygitwithr.com/github-acct.html">Register a GitHub account</a></p></li>
-</ol>
-</section>
-<section id="version-control-git-and-github-check-setup" class="slide level2 center">
-<h2>Version Control — Git and GitHub — check setup</h2>
-<div class="fragment">
-<p>In the <strong>terminal</strong> 📱:</p>
-<div style="font-size: 70px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb30"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb30-1"><a href="#cb30-1"></a><span class="fu">git</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<ul>
-<li>you should see the Git version ✅</li>
-</ul>
-</div>
-<div class="fragment">
-<p>In the <strong>terminal</strong> 📱:</p>
-<div style="font-size: 70px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb31"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb31-1"><a href="#cb31-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<ul>
-<li>you should see the Git user name ✅</li>
-</ul>
-<p><br></p>
-</div>
-<div class="fragment">
-<h4 id="if-these-steps-did-not-work-go-here-and-set-up-git">🚫 If these steps did not work, go <a href="https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git">here</a> and set up Git</h4>
-<h4 id="you-just-dont-want-to-use-the-terminal-for-version-control-in-rstudio-see-here-and-particularly-this-video">You just don’t want to use the terminal ❓ ▶ For version control in RStudio, see <a href="https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN">here</a>, and particularly <a href="https://www.youtube.com/watch?v=megZYkCLMA4"><strong>this video</strong></a></h4>
-</div>
-</section>
-<section id="version-control-git-and-github-connect-local-with-remote" class="slide level2 center">
-<h2>Version Control — Git and GitHub — connect local with remote</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<ol type="1">
-<li>Go to GitHub and create a new repository</li>
-</ol>
-<p><img src="images/new_repo.png" width="500px"></p>
-</div><div class="column" style="width:60%;">
-<ol start="2" type="1">
-<li>Fill in some info, create a public repository <img src="images/testrepo.png" width="800px"></li>
+<li>Die Videoübertragung ist erwünscht. Das erleichtert die Kommunikation und schafft eine produktivere und angenehmere Gesprächssituation.</li>
 </ol>
 </div>
-</div>
-</section>
-<section id="section-4" class="slide level2 center">
-<h2></h2>
-<ol start="3" type="1">
-<li>Follow the steps in Option 1: <em>“…create a new repository on the command line”</em></li>
-</ol>
-
-<img src="images/push.png" width="900px" class="r-stretch"></section>
-<section id="section-5" class="slide level2 center">
-<h2></h2>
+<div class="fragment">
 <ol start="4" type="1">
-<li>In the <strong>terminal</strong> 📱, navigate to your Quarto project folder:</li>
+<li>Bei technischen Problemen bitte den Chat nutzen.</li>
 </ol>
-<div style="font-size: 70px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
 </div>
-<div class="sourceCode" id="cb32"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb32-1"><a href="#cb32-1"></a><span class="bu">cd</span> project_folder</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<p><br></p>
 <div class="fragment">
 <ol start="5" type="1">
-<li>initialize a git repo on your local machine:</li>
+<li>Screenshots/Videoaufnahmen vom Seminar sind nicht gestattet.</li>
 </ol>
-<div style="font-size: 70px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
 </div>
-<div class="sourceCode" id="cb33"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb33-1"><a href="#cb33-1"></a><span class="fu">git</span> init</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<p><br></p>
-</div>
-<div class="fragment">
+</section>
+<section id="technische-hinweise-1" class="slide level2">
+<h2>Technische Hinweise</h2>
+<p><img data-src="images/Logo_LMU_Center_full.png" class="absolute" style="top: -84px; right: -340px; width: 450px; "></p>
 <ol start="6" type="1">
-<li>create content you can then add in the next step (e.g., README file):</li>
+<li>Zur Optimierung Ihrer persönlichen Lernerfahrung empfehle ich Ihnen eine aktive Teilnahme am Workshops.</li>
 </ol>
-<div style="font-size: 70px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb34"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb34-1"><a href="#cb34-1"></a><span class="fu">touch</span> README.md</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="section-6" class="slide level2 center">
-<h2></h2>
+<div class="fragment">
 <ol start="7" type="1">
-<li>stage all the content in that folder to be added:</li>
+<li>Bitte rufen Sie <a href="annekathrinkleine.com">annekathrinkleine.com</a> auf, gehen Sie zu “Talks and Workshops” und öffnen Sie die Slideshow für den heutigen Workshop</li>
 </ol>
-<div style="font-size: 70px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb35"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb35-1"><a href="#cb35-1"></a><span class="fu">git</span> add .</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<p><br></p>
-<div class="fragment">
-<ol start="8" type="1">
-<li>stage all the content in that folder to be committed:</li>
-</ol>
-<div style="font-size: 70px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb36"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb36-1"><a href="#cb36-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"add empty readme"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
+<aside class="notes">
+<p>Das Seminar lebt von einer regen Teilnahme. Wir begrüßen daher verschiedene Meinungen und freuen uns auf interessante Diskussionen!</p>
+<p>Das digitale Setting erschwert erfahrungsgemäß Interaktionen und hebt die Hemmschwelle, sich zu beteiligen.</p>
+<p>Der Workshop lebt aber davon, dass sich alle Teilnehmenden einbringen, mit diskutieren. Wir geben euch Input und schlagen eine Perspektive vor. Aber Jede und Jeder von euch kann wirklich am meisten von dieser Veranstaltung profitieren, wenn noch mehr Input und noch mehr Perspektiven eingebracht werden. Dafür brauchen wir euch! Bitte seht hier eure Eigenverantwortlichkeit, aber auch Mündigkeit, eigene Gedanken, Erfahrungen und Ideen zu teilen.</p>
+<p>Wenn Fragen aufkommen, könnt ihr diese jederzeit stellen. Bitte legt einen Block und Schreibzeug neben den Computer.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </div>
 </section>
-<section id="section-7" class="slide level2 center">
-<h2></h2>
-<ol start="9" type="1">
-<li>connect local repo to the remote repo. Substitute the link with your repo URL!</li>
-</ol>
-<div style="font-size: 70px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb37"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb37-1"><a href="#cb37-1"></a><span class="fu">git</span> remote add origin https://github.com/AnneOkk/testrepo.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<p><br></p>
-<div class="fragment">
-<ol start="10" type="1">
-<li>push all the content from Git to GitHub:</li>
-</ol>
-<div style="font-size: 70px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb38"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb38-1"><a href="#cb38-1"></a><span class="fu">git</span> push origin master</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<p><br></p>
-</div>
-<div class="fragment">
-<p><img src="images/success.png" width="800px"></p>
-<h3 id="the-pushed-files-should-appear-in-your-github-repository">🎈 The pushed files should appear in your GitHub repository 🎈</h3>
+<section id="wie-zufrieden-sind-sie-mit-ihrem-aktuellen-sportpensum" class="slide level2">
+<h2>Wie zufrieden sind Sie mit Ihrem aktuellen Sportpensum?</h2>
+<p><img data-src="images/Logo_LMU_Center_full.png" class="absolute" style="top: -84px; right: -340px; width: 450px; "></p>
+<p>Besuchen Sie <a href="https://www.menti.com/al14e9g5f7kf">diesen Link</a></p>
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;">
+<iframe sandbox="allow-scripts allow-same-origin allow-presentation" allowfullscreen="true" allowtransparency="true" frameborder="0" height="315" src="https://www.mentimeter.com/app/presentation/4eefd91211156033bd3fa9f601f280c2/57c5b1296da5/embed" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="420">
+</iframe>
 </div>
 </section>
-<section id="version-control-git-and-github-collaborating" class="slide level2 center">
-<h2>Version Control — Git and GitHub — collaborating</h2>
-<h3 id="imagine">Imagine… 🤔</h3>
-<div class="fragment">
+<section>
+<section id="die-vielfältigen-funktionen-des-sports" class="title-slide slide level1 center">
+<h1>Die vielfältigen Funktionen des Sports</h1>
+
+</section>
+<section id="körperliche-und-mentale-gesundheit" class="slide level2" data-background-image="images/health.jpg">
+<h2>Körperliche und mentale Gesundheit</h2>
+</section>
+<section id="körperliche-und-mentale-gesundheit-1" class="slide level2" data-background-image="images/health.jpg" data-background-opacity="0.2">
+<h2>Körperliche und mentale Gesundheit</h2>
+<p><img data-src="images/Logo_LMU_Center_full.png" class="absolute" style="top: -84px; right: -340px; width: 450px; "></p>
+<p>Sport trägt (wenn das Pensum und die Motivation stimmen) zur <a href="https://static1.squarespace.com/static/60131e01d2d9c849d43b6a2a/t/611e908476709c1452bb2e92/1629393031740/Book.pdf#page=53">körperlichen Gesundheit</a> bei:</p>
 <ul>
-<li>you work in a team of data scientists/ data enthusiastic researchers 🧙🧙🏿🧙‍♀️🧙🏻‍♀️</li>
+<li>Energiestoffwechsel</li>
+<li>Atmungssystem</li>
+<li>Immunsystem</li>
+<li>Herz-Kreislauf-System</li>
+<li>Skelett und Muskulatur</li>
+<li>Nervensystem und Gehirn</li>
 </ul>
+<div class="fragment">
+<p>Sport wirkt sich nicht nur positiv auf die körperliche Fitness aus, sondern <a href="https://europepmc.org/article/med/27801745">kann bei der Stressbewältigung, der Reduktion von Ängsten und dem Aufbau eines gesunden Selbstvertrauens helfen</a>.</p>
+</div>
+</section>
+<section id="soziale-funktion" class="slide level2" data-background-image="images/social.jpg">
+<h2>Soziale Funktion</h2>
+</section>
+<section id="soziale-funktion-1" class="slide level2" data-background-image="images/social.jpg" data-background-opacity="0.2">
+<h2><a href="https://sportscotland.org.uk/documents/resources/thesocialbenefitsofsport.pdf">Soziale Funktion</a></h2>
+<p><img data-src="images/Logo_LMU_Center_full.png" class="absolute" style="top: -84px; right: -340px; width: 450px; "></p>
+<p>Im Sport wird Begegnung und Dialog in Kooperation und angemessenem Wettstreit ermöglicht.</p>
+<div class="fragment">
+<p>Im Sport können Menschen neue Verhaltensweisen und den Umgang miteinander spielerisch proben.</p>
 </div>
 <div class="fragment">
-<ul>
-<li>you want to be able to work together on a data analysis project 👨‍💻👩‍💻 👨‍💻👩‍💻</li>
-</ul>
+<p>Sport verbindet Menschen durch das gemeinsame Interesse an der Sache.</p>
 </div>
 <div class="fragment">
-<ul>
-<li>you want to keep track of what the others do and finally merge individual contributions into one overall project ✨ 💾 ✨</li>
-</ul>
+<p>Im Sport gibt es Regeln, die positive Wirkungen im Sinne eines an Werten und Normen orientierten Sozialverhaltens entfalten können.</p>
+</div>
+</section>
+<section id="persönliche-entwicklung" class="slide level2" data-background-image="images/strength.jpg">
+<h2>Persönliche Entwicklung</h2>
+</section>
+<section id="persönliche-entwicklung-1" class="slide level2" data-background-image="images/strength.jpg" data-background-opacity="0.2">
+<h2>Persönliche Entwicklung</h2>
+<p><img data-src="images/Logo_LMU_Center_full.png" class="absolute" style="top: -84px; right: -340px; width: 450px; "></p>
+<p>Sport bietet die Möglichkeit, gezielt an sich zu arbeiten und sich weiterzuentwickeln.</p>
+<div class="fragment">
+<p>Die Stärkung bestimmter Eigenschaften wie <a href="https://secret-wiki.de/blog/persoenlichkeitsentwicklung-durch-sport/">Disziplin und Durchhaltevermögen</a> kann durch Sport aktiv gefördert werden.</p>
 </div>
 <div class="fragment">
-<h4 id="but-how">But how ❓ 🤷</h4>
+<p>Sport hilft nachweislich dabei, mit <a href="https://www.healthdirect.gov.au/developing-life-skills-through-sports#:~:text=Developmental%20benefits,loser%20takes%20maturity%20and%20practice">Rückschlägen besser umgehen zu können</a> und langfristige Ziele zu verfolgen.</p>
+</div>
+<div class="fragment">
+<p>Durch Sport können wir lernen, <a href="https://secret-wiki.de/blog/persoenlichkeitsentwicklung-durch-sport/">uns selbst besser wahrzunehmen</a></p>
+</div>
+</section>
+<section id="ästhetische-funktion" class="slide level2" data-background-image="images/aesth2.jpg">
+<h2>Ästhetische Funktion</h2>
+</section>
+<section id="ästhetische-funktion-1" class="slide level2" data-background-image="images/aesth2.jpg" data-background-opacity="0.2">
+<h2>Ästhetische Funktion</h2>
+<p><img data-src="images/Logo_LMU_Center_full.png" class="absolute" style="top: -84px; right: -340px; width: 450px; "></p>
+<p>Es gibt einen <a href="https://www.sciencedirect.com/science/article/abs/pii/S1469029218305491">bidirektionalen Zusammenhang zwischen einer positiven Sicht auf den eigenen Körper und sportlicher Betätigung</a>.</p>
+<div class="fragment">
+<p>Menschen, die regelmäßig Sport treiben, haben generell ein <a href="https://www.sciencedirect.com/science/article/abs/pii/S1740144518303097">positiveres körperbezogenes Selbstbild</a>.</p>
 </div>
 </section></section>
 <section>
-<section id="version-control-git-and-github-collaborating-1" class="title-slide slide level1 center" data-background-color="#a13c65">
-<h1>Version Control — Git and GitHub — collaborating</h1>
+<section id="sport---nicht-ohne-risiken-und-nebenwirkungen" class="title-slide slide level1 center">
+<h1>Sport - nicht ohne Risiken und Nebenwirkungen?</h1>
 
 </section>
-<section id="scenario-1---you-are-owner-collaborator" class="slide level2 center">
-<h2>Scenario 1 - you are owner/ collaborator</h2>
-<ol type="1">
-<li>Go to the GitHub repository you are working on as a team</li>
-</ol>
-<div class="fragment">
-<ol start="2" type="1">
-<li>In the terminal 📱, navigate to where you want to store the project files and type:</li>
-</ol>
-<div style="font-size: 60px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb39"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb39-1"><a href="#cb39-1"></a><span class="fu">git</span> clone https://github.com/AnneOkk/testrepo.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-<div class="fragment">
-<p><img src="images/clone.png" width="800px"></p>
-</div>
+<section id="die-negativen-seiten-des-sports" class="slide level2" data-background-image="images/negative.jpg">
+<h2>Die negativen Seiten des Sports</h2>
 </section>
-<section id="section-8" class="slide level2 center">
-<h2></h2>
-<ol start="3" type="1">
-<li>Next, you would always want to make sure that you are up to date with what has changed in the remote repository</li>
-</ol>
+<section id="die-negativen-seiten-des-sports-1" class="slide level2" data-background-image="images/negative.jpg" data-background-opacity="0.2">
+<h2><a href="https://link.springer.com/article/10.1007/s00132-019-03823-5#:~:text=Dies%20betrifft%20in%20erster%20Linie,wie%20Essst%C3%B6rungen%2C%20Substanzmissbrauch%20sowie%20Sportabh%C3%A4ngigkeit._">Die negativen Seiten des Sports</a></h2>
+<ul>
+<li>Körperliche Beeinträchtigungen durch Verletzungen</li>
+</ul>
 <div class="fragment">
-<p>In the 📱 terminal 📱, type:</p>
-<div style="font-size: 60px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb40"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb40-1"><a href="#cb40-1"></a><span class="fu">git</span> pull origin master</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
+<ul>
+<li>Wenn Sport in einem exzessiven Umfang betrieben wird, erhöht sich zudem das Risiko für psychische Störungsbilder wie Essstörungen, Substanzmissbrauch sowie Sportabhängigkeit</li>
+</ul>
 </div>
 <div class="fragment">
-<p><br></p>
-<ol start="4" type="1">
-<li>Create a new branch to add changes that belong to a novel feature you are working on (this prevents messing up the master branch)</li>
-</ol>
-<div style="font-size: 70px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb41"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb41-1"><a href="#cb41-1"></a><span class="fu">git</span> checkout <span class="at">-b</span> <span class="st">"cool-feature"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-<div class="fragment">
-<p><br></p>
-<ol start="5" type="1">
-<li>Now make some changes (e.g., add the new cool feature to the code)</li>
-</ol>
-</div>
-</section>
-<section id="section-9" class="slide level2 center">
-<h2></h2>
-<ol start="6" type="1">
-<li>Add and commit the files …through the usual workflow 😴</li>
-</ol>
-<div style="font-size: 60px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb42"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb42-1"><a href="#cb42-1"></a><span class="fu">git</span> add .</span>
-<span id="cb42-2"><a href="#cb42-2"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"new feature file added"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<div class="fragment">
-<p><br></p>
-<p>🚧 👀 BUT you push the changes to the newly created branch to prevent messing up the master branch! 👀 🚧</p>
-<div style="font-size: 60px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb43"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb43-1"><a href="#cb43-1"></a><span class="fu">git</span> push origin cool-feature</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-<div class="fragment">
-<p><img src="images/pull.png" width="1000px"></p>
-</div>
-</section>
-<section id="section-10" class="slide level2 center">
-<h2></h2>
-<ol start="7" type="1">
-<li>On GitHub, create a pull request</li>
-</ol>
-
-<img src="images/pull_req.png" width="700px" class="r-stretch"><div class="fragment">
-<p><br></p>
-<ol start="8" type="1">
-<li>Once all issues are resolved, your changes will be merged into the master branch 🥳</li>
-</ol>
-</div>
-</section>
-<section id="section-11" class="slide level2 center">
-<h2></h2>
-<ol start="9" type="1">
-<li>Checkout to master branch</li>
-</ol>
-<div style="font-size: 60px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb44"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb44-1"><a href="#cb44-1"></a><span class="fu">git</span> checkout master</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<div class="fragment">
-<p><br></p>
-<ol start="10" type="1">
-<li>Pull changes</li>
-</ol>
-<div style="font-size: 60px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb45"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb45-1"><a href="#cb45-1"></a><span class="fu">git</span> pull origin master</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-<div class="fragment">
-<p><br></p>
-<ol start="11" type="1">
-<li>Checkout a new branch for missing feature.</li>
-</ol>
-<div style="font-size: 60px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb46"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb46-1"><a href="#cb46-1"></a><span class="fu">git</span> checkout <span class="at">-b</span> data-reader</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<p><br></p>
-</div>
-<div class="fragment">
-<h3 id="and-so-on">… And so on …</h3>
-</div>
-</section>
-<section id="scenario-2---you-want-to-contribute-to-an-open-science-project" class="slide level2 center">
-<h2>Scenario 2 - you want to contribute to an open science project</h2>
-<div class="fragment">
-<ol type="1">
-<li>In GitHub, navigate to the project you want to contribute to</li>
-</ol>
-</div>
-<div class="fragment">
-<ol start="2" type="1">
-<li>Fork the repo!</li>
-</ol>
-<p><img src="images/fork.png" width="700px"></p>
-</div>
-<div class="fragment">
-<ol start="3" type="1">
-<li>Clone the new repo!</li>
-</ol>
-<div style="font-size: 70px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb47"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb47-1"><a href="#cb47-1"></a><span class="fu">git</span> clone https://github.com/AnneOkk/Testrepo-1.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-<div class="fragment">
-<ol start="4" type="1">
-<li>Make your changes and then add, commit, and push to your master branch</li>
-</ol>
-</div>
-</section>
-<section id="section-12" class="slide level2 center">
-<h2></h2>
-<ol start="5" type="1">
-<li>On GitHub, go back to the original repository and create a pull request.</li>
-</ol>
-<p>You may need to click “compare across forks”</p>
-
-<img src="images/successful_pull.png" width="700px" class="r-stretch"></section>
-<section id="on-the-other-side-repo-owner" class="slide level2 center">
-<h2>… On the other side (repo owner)</h2>
-
-<img data-src="images/review_pull.png" width="250" class="r-stretch"><p>Open and review the pull request! 🔍</p>
-<p>If you’re happy with the changes, merge! 👍</p>
-<p>Otherwise, request additional changes in comments. 💬</p>
-<div class="fragment">
-<p><br></p>
-<h3 id="yey-youre-all-set-to-contribute-to-open-science-projects-on-github">🎊 Yey, you’re all set to contribute to open science projects on GitHub! 🎊</h3>
+<ul>
+<li>Perfektionismus und extreme Ansprüche können die <a href="https://journals.sagepub.com/doi/abs/10.1111/j.0963-7214.2005.00326.x">mentale Gesundheit negative beeinflussen</a></li>
+</ul>
 </div>
 </section></section>
-<section id="your-turn-15-min-1" class="title-slide slide level1 center" data-background-color="#447099" data-transition="slide-in">
-<h1><svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M128 96h384v256h64V80C576 53.63 554.4 32 528 32h-416C85.63 32 64 53.63 64 80V352h64V96zM624 384h-608C7.25 384 0 391.3 0 400V416c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.3 632.8 384 624 384zM365.9 286.2C369.8 290.1 374.9 292 380 292s10.23-1.938 14.14-5.844l48-48c7.812-7.813 7.812-20.5 0-28.31l-48-48c-7.812-7.813-20.47-7.813-28.28 0c-7.812 7.813-7.812 20.5 0 28.31l33.86 33.84l-33.86 33.84C358 265.7 358 278.4 365.9 286.2zM274.1 161.9c-7.812-7.813-20.47-7.813-28.28 0l-48 48c-7.812 7.813-7.812 20.5 0 28.31l48 48C249.8 290.1 254.9 292 260 292s10.23-1.938 14.14-5.844c7.812-7.813 7.812-20.5 0-28.31L240.3 224l33.86-33.84C281.1 182.4 281.1 169.7 274.1 161.9z"></path></svg> Your Turn (15 min)</h1>
-<ol start="0" type="1">
-<li><p>[Get Git and GitHub up and running]</p></li>
-<li><p>Connect your local R project folder with a GitHub repository</p></li>
-<li><p>Change some of the content in R, save, and then push the changes to GitHub</p></li>
-</ol>
-<div style="font-size: 70px;">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>terminal</strong></pre>
-</div>
-<div class="sourceCode" id="cb48"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb48-1"><a href="#cb48-1"></a><span class="fu">git</span> add .</span>
-<span id="cb48-2"><a href="#cb48-2"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"senseful commit message that describes the change(s)"</span></span>
-<span id="cb48-3"><a href="#cb48-3"></a><span class="fu">git</span> push origin master</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<p><br></p>
-<ol start="3" type="1">
-<li>[OPTIONAL] Create a pull request for your own repository and merge the changes into the master branch</li>
-</ol>
-</section>
-
 <section>
-<section id="integrating-osf-with-github" class="title-slide slide level1 center" data-background-color="#a13c65">
-<h1>Integrating osf with GitHub</h1>
+<section id="lets-stay-positive" class="title-slide slide level1 center">
+<h1>Let’s stay positive!</h1>
+<div class="r-stack">
+<p><img data-src="images/health.jpg" class="fragment" width="950"></p>
+<p><img data-src="images/social.jpg" class="fragment" width="900"></p>
+<p><img data-src="images/strength.jpg" class="fragment" width="850"></p>
+<p><img data-src="images/aesth2.jpg" class="fragment" width="800"></p>
+</div>
+</section>
+<section id="was-hält-sie-ihrer-meinung-nach-davon-ab-soviel-sport-zu-machen-wie-sie-es-sich-wünschen" class="slide level2">
+<h2>Was hält Sie Ihrer Meinung nach davon ab, soviel Sport zu machen, wie Sie es sich wünschen?</h2>
+<p><img data-src="images/Logo_LMU_Center_full.png" class="absolute" style="top: -84px; right: -340px; width: 450px; "></p>
+<p>Besuchen Sie <a href="https://www.menti.com/al14e9g5f7kf">diesen Link</a></p>
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;">
+<iframe sandbox="allow-scripts allow-same-origin allow-presentation" allowfullscreen="true" allowtransparency="true" frameborder="0" height="315" src="https://www.mentimeter.com/app/presentation/4eefd91211156033bd3fa9f601f280c2/57c5b1296da5/embed" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="420">
+</iframe>
+</div>
+</section></section>
+<section>
+<section id="wann-und-wie-tut-sport-eigentlich-gut" class="title-slide slide level1 center">
+<h1>Wann und wie tut Sport eigentlich gut?</h1>
 
 </section>
-<section id="integrating-osf-with-github-1" class="slide level2 center">
-<h2>Integrating osf with GitHub</h2>
+<section id="sportmotivation-aus-der-selbstbestimmungsperspektive-die-drei-grundbedürfnisse" class="slide level2">
+<h2>Sportmotivation aus der Selbstbestimmungsperspektive: <a href="https://core.ac.uk/download/pdf/185427586.pdf_">Die drei Grundbedürfnisse</a>:</h2>
+</section>
+<section id="die-drei-grundbedürfnisse" class="slide level2">
+<h2>Die drei Grundbedürfnisse</h2>
+<h3 id="das-autonomiebedürfnis.">Das Autonomiebedürfnis.</h3>
+<p>Das Autonomiebedürfnis wird durch das Fällen eigener, unabhängiger Entscheidungen gestärkt. Handeln wir im Einklang mit unseren Werten und Normen und fühlen uns nicht oder kaum von aßen bestimmt, ist unser Autonomieempfinden hoch.</p>
+
+<img data-src="images/autonomy.jpg" width="600" class="r-stretch"></section>
+<section id="die-drei-grundbedürfnisse-1" class="slide level2">
+<h2>Die drei Grundbedürfnisse</h2>
+<h3 id="das-beziehungsbedürfnis">Das Beziehungsbedürfnis</h3>
+<p>Das Beziehungsbedürfnis ist erfüllt, wenn wir uns mit anderen verbunden fühlen und von anderen verstanden fühlen.</p>
+
+<img data-src="images/relation.jpg" width="600" class="r-stretch"></section>
+<section id="die-drei-grundbedürfnisse-2" class="slide level2">
+<h2>Die drei Grundbedürfnisse</h2>
+<h3 id="das-kompetenzbedürfnis.">Das Kompetenzbedürfnis.</h3>
+<p>Das Kompenezbedürfnis ist erfüllt, wenn wir die Erfahrung machen, dass unser Handeln die gewünschten Effekte hervorbringt.</p>
+
+<img data-src="images/compet.jpg" width="600" class="r-stretch"></section>
+<section id="die-drei-grundbedürfnisse-3" class="slide level2">
+<h2>Die drei Grundbedürfnisse</h2>
+<p><img data-src="images/Logo_LMU_Center_full.png" class="absolute" style="top: -84px; right: -340px; width: 450px; "></p>
+<p><a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.704.6438&amp;rep=rep1&amp;type=pdf">Zahlreiche Forschungsbefunde</a> deuten darauf hin, dass die Erfüllung der drei Grundbedürfnisse ausschlaggebend dafür ist</p>
+<div class="fragment">
 <ol type="1">
-<li>Create your osf project</li>
+<li>ob wir überhaupt überhaupt Sport treiben und</li>
 </ol>
+</div>
 <div class="fragment">
 <ol start="2" type="1">
-<li>Enable GitHub in Add-ons</li>
+<li>ob wir uns mit dem Sport und dem Sportpensum wohl fühlen</li>
 </ol>
-<p><img src="images/osf_int.png" width="850px"></p>
+</div>
+</section></section>
+<section>
+<section id="einflussfaktoren-auf-die-drei-grundbedürfnisse-im-sport" class="title-slide slide level1 center">
+<h1>Einflussfaktoren auf die drei Grundbedürfnisse im Sport</h1>
+
+</section>
+<section id="das-autonomiebedürfnis" class="slide level2" data-background-image="images/autonomy.jpg">
+<h2>Das Autonomiebedürfnis</h2>
+</section>
+<section id="das-autonomiebedürfnis-1" class="slide level2" data-background-image="images/autonomy.jpg" data-background-opacity="0.2">
+<h2>Das Autonomiebedürfnis</h2>
+<h3 id="die-coachin-der-coach">Die Coachin/ der Coach</h3>
+<ul>
+<li>generelle Unterscheidung zwischen einem <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.704.6438&amp;rep=rep1&amp;type=pdf_">kontrollierenden und einem Autonomie stützenden Coaching-Stil</a></li>
+</ul>
+<h3 id="vereinsstruktur-und-mitgliedschaft">Vereinsstruktur und Mitgliedschaft</h3>
+<ul>
+<li>flexible Mitgliedschaften schaffen höhere Autonomie</li>
+</ul>
+<h3 id="individual--vs.-teamsport">Individual- vs.&nbsp;Teamsport</h3>
+<ul>
+<li>generell mehr Autonomie im Individualsport</li>
+</ul>
+<h3 id="das-umfeld">Das Umfeld</h3>
+<ul>
+<li>wächst der Druck von außen (durch Partner_innen, Eltern, Freund_innen) Sport zu treiben, sinkt das Autonomieempfinden</li>
+</ul>
+<h3 id="wertekonformität">Wertekonformität</h3>
+<ul>
+<li>wenn der Sport, den wir treiben, zu unseren Werten passt, ist unser Autonomieempfinden hoch. Das betrifft die Sportart selbst als auch den Umgang miteinander.</li>
+</ul>
+</section>
+<section id="das-beziehungsbedürfnis-1" class="slide level2" data-background-image="images/relation.jpg">
+<h2>Das Beziehungsbedürfnis</h2>
+</section>
+<section id="das-beziehungsbedürfnis-2" class="slide level2" data-background-image="images/relation.jpg" data-background-opacity="0.2">
+<h2>Das Beziehungsbedürfnis</h2>
+<h3 id="individual--vs.-teamsport-1">Individual- vs.&nbsp;Teamsport</h3>
+<ul>
+<li>Stärkere Betonung des Gemeinschaftlichen im Teamsport</li>
+</ul>
+</section>
+<section id="das-kompetenzbedürfnis" class="slide level2" data-background-image="images/compet.jpg">
+<h2>Das Kompetenzbedürfnis</h2>
+</section>
+<section id="das-kompetenzbedürfnis-1" class="slide level2" data-background-image="images/compet.jpg" data-background-opacity="0.2">
+<h2>Das Kompetenzbedürfnis</h2>
+<ul>
+<li><p>das Kompetenzbedürfnis wird besser erfüllt, wenn die sportliche Tätigkeit unsere schon vorhandenen Stärken und Kompetenzen einbindet</p></li>
+<li><p>das Kompetenzbedürfnis wird erfüllt, wenn es uns im Vergleich zu anderen schneller oder genauso schnell gelingt, uns im Sport zu verbessern</p></li>
+</ul>
+</section></section>
+<section>
+<section id="die-bedürfniserfüllung-im-sport-und-unser-wohlbefinden---alles-eine-frage-der-kongruenz" class="title-slide slide level1 center">
+<h1>Die Bedürfniserfüllung im Sport und unser Wohlbefinden - alles eine Frage der Kongruenz?</h1>
+
+</section>
+<section id="die-kongruenzregel" class="slide level2">
+<h2>Die Kongruenzregel</h2>
+<ul>
+<li><p>generell gefallen uns Tätigkeiten besser, die mit unseren individuellen Bedürfnissen, Werten und Zielen im Einklang stehen</p></li>
+<li><p>z.B. ist die Autonomie, die uns eine sportliche Aktivität bietet besonders hoch, profitieren wir besonders davon, wenn unser (aktuelles) Autonomiebedürfnis stark ausgeprägt ist</p></li>
+</ul>
+</section>
+<section id="die-kongruenz-von-ego-vs.-task-involvement-im-sport" class="slide level2">
+<h2>Die Kongruenz von Ego vs.&nbsp;Task Involvement im Sport</h2>
+<ul>
+<li><p>ein Klima, das Ego Involvement fördert, ist durch einen Leistungsfokus charakterisiert - Wettkampf, sozialer Vergleich und öffentliche Beurteilung stehen im Vordergrund</p></li>
+<li><p>ein Klima, das Task Involvement fördert, ist durch einen Fokus auf den Sport selbst charakterisiert; Mastery, Lernerfahrung und die Verbesserung der eigenen Fertigkeiten stehen im Vordergrund</p></li>
+<li><p><a href="https://www.zora.uzh.ch/id/eprint/96690/1/Schueler_et_al_Implicit_motives.pdf">passen die Gewichtung von Ego vs.&nbsp;Task Zielen im Team/ im Individualsport zur eigenen Gewichtung von Ego vs.&nbsp;Task Zielen, werden die Bedürfnisse nach Autonomie und Zusammengehörigkeit besser erfüllt</a></p></li>
+</ul>
+</section></section>
+<section>
+<section id="der-weg-zum-sport" class="title-slide slide level1 center">
+<h1>Der Weg zum Sport</h1>
+
+</section>
+<section id="bedürfnis-nach-veränderung" class="slide level2">
+<h2>Bedürfnis nach Veränderung</h2>
+<p>Erst einmal muss Ihnen deutlich sein, ob Sie gerne mehr Sport treiben wollen. Ist das der Fall, fragen Sie sich im nächsten Schritt, warum Sie Ihr aktuelles Bedürfnis nach sportlicher Betätigung nicht komplett erfüllen</p>
+</section>
+<section id="hindernisse-identifizieren" class="slide level2">
+<h2>Hindernisse identifizieren</h2>
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;">
+<iframe sandbox="allow-scripts allow-same-origin allow-presentation" allowfullscreen="true" allowtransparency="true" frameborder="0" height="315" src="https://www.mentimeter.com/app/presentation/4eefd91211156033bd3fa9f601f280c2/57c5b1296da5/embed" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="420">
+</iframe>
 </div>
 </section>
-<section id="section-13" class="slide level2 center">
-<h2></h2>
-<ol start="3" type="1">
-<li>Import GitHub Account</li>
-</ol>
-
-<img src="images/osf_imp.png" width="600px" class="r-stretch"></section>
-<section id="section-14" class="slide level2 center">
-<h2></h2>
-<h3 id="select-repo">4. Select Repo</h3>
-
-<img src="images/osf_sel.png" width="800px" class="r-stretch"><h3 id="yey-youre-all-set-to-connect-your-github-content-to-osf">🎊 Yey, you’re all set to connect your GitHub content to osf! 🎊</h3>
+<section id="konkrete-ziele-setzen" class="slide level2">
+<h2>Konkrete Ziele setzen</h2>
+<ul>
+<li>das kann z.B.</li>
+</ul>
 </section>
-<section id="and-there-is-so-much-more" class="slide level2 center" data-background-color="#a13c65">
+<section id="and-there-is-so-much-more" class="slide level2" data-background-color="#a13c65">
 <h2>…And there is so much more!</h2>
 <div style="text-align: right;">
 <p><img data-src="images/m3.jpeg" height="550"></p>
@@ -1469,9 +661,8 @@
 <p><svg aria-hidden="true" role="img" viewbox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg> <a href="https://github.com/AnneOkk">@AnneOkk</a></p>
 <p><svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"></path></svg> <a href="https://annekathrinkleine.com//">http://annekathrinkleine.com/</a></p>
 </div>
-<p><img src="/images/logoclin.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p><a href="https://quarto.org" class="uri">https://quarto.org</a></p>
+
 </div>
 </section></section>
     </div>
@@ -1557,7 +748,7 @@
         disableLayout: false,
 
         // Vertical centering of slides
-        center: true,
+        center: false,
 
         // Enables touch navigation on devices with touch input
         touch: true,
@@ -1640,7 +831,7 @@
 
         // Transition style for full page slide backgrounds
         // (none/fade/slide/convex/concave/zoom)
-        backgroundTransition: 'none',
+        backgroundTransition: 'fade',
 
         // Number of slides away from the current that are visible
         viewDistance: 3,
@@ -1655,10 +846,10 @@
         // specified using percentage units.
         width: 1600,
 
-        height: 1200,
+        height: 900,
 
         // Factor of the display size that should remain empty around the content
-        margin: 0.1,
+        margin: 0.2,
 
         math: {
           mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
