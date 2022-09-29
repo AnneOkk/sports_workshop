@@ -1,8 +1,10 @@
 /*-- scss:defaults --*/
 
 $link-color: #b67900;
-$presentation-heading-color: #a13c65;
+$presentation-heading-color: #9e3965;
 $code-block-border-color: #000000;
+$title-block-banner-color: #b67900;
+$presentation-font-size-root: 50px;
 
 /*-- scss:rules --*/
 
@@ -29,10 +31,18 @@ $code-block-border-color: #000000;
 	}
 }
 
+.subtitle {
+  font-size: 50px;
+}
+
+.author {
+  font-size: 60px;
+}
+
 .sectionhead {
-  font-size: 1em;
+  font-size: 2.5em;
   text-align: center;
-  color: $presentation-heading-color;
+  color: #501E32;
   font-family: $presentation-heading-font;
   background-color: $body-bg;
   margin: 1px;
@@ -50,4 +60,17 @@ $code-block-border-color: #000000;
   border: 2px solid;
 }
 
+.reveal h2 {
+  font-size: 90px;
+  text-shadow: 2px 2px 4px rgba(255,255,255, 0.9);
+}
+
+.reveal h3 {
+  font-size: 67px;
+  text-shadow: 2px 2px 4px rgba(255,255,255, 0.9);
+}
+
+.centerme {
+  text-align: center;
+}
 
