@@ -479,6 +479,8 @@ Hören Sie einander gut zu, denn die Antworten werden in der nächsten Runde noc
 
 . . .
 
+<br/>
+
 ### Nennen Sie die Sportart und versuchen Sie, diese positive Empfindung zu beschreiben. 
 
 . . .
@@ -547,10 +549,11 @@ barplot(t(as.matrix(data_cycle)), beside=TRUE, main = "Fahrradfahren in der Grup
 ```
 
 
-
 ## Der Weg zum "richtigen Sport" für mich 
 
 ![](images/Logo_LMU_Center_full.png){.absolute top=-230 right=-150 width="450"}
+
+<br/>
 
 ### Ausgleich mangelnder Beziehungsaspekte 
 
@@ -568,6 +571,8 @@ Dann suchen Sie sich eine Gruppe in der Sie den Sport gemeinsam ausführen könn
 
 ![](images/Logo_LMU_Center_full.png){.absolute top=-230 right=-150 width="450"}
 
+<br/>
+
 ### Ausgleich mangelnder Beziehungsaspekte 
 
 Hilfreich für "Draußen-Sportarten" sind Online-Gruppen wie Strava oder ein Probetraining im lokalen Triathlonverein
@@ -578,6 +583,8 @@ Hilfreich für "Draußen-Sportarten" sind Online-Gruppen wie Strava oder ein Pro
 ## Der Weg zum "richtigen Sport" für mich 
 
 ![](images/Logo_LMU_Center_full.png){.absolute top=-230 right=-150 width="450"}
+
+<br/>
 
 ### Lassen Sie sich inspirieren 
 
@@ -611,15 +618,15 @@ Hilfreich für "Draußen-Sportarten" sind Online-Gruppen wie Strava oder ein Pro
     - diskutieren sie mögliche Lösungen - es geht nicht darum, für jedes Problem eine Lösung zu finden
     
 
-# {background-image="images/thanks.jpg" background-opacity=0.8}
+# **Find me at:** {background-image="images/thanks.jpg" background-opacity=0.9}
 
-**Find me at:**
 
-`r fa("strava")` [Anne Drops](https://www.strava.com/athletes/56021200)
 
-`r fa("twitter")` [\@AnKaKleine](https://twitter.com/ankakleine?lang=en)
+`r fa("strava")` [**Anne Drops**](https://www.strava.com/athletes/56021200)
 
-`r fa("github")` [\@AnneOkk](https://github.com/AnneOkk)
+`r fa("twitter")` [**\@AnKaKleine**](https://twitter.com/ankakleine?lang=en)
 
-`r fa("link")` [http://annekathrinkleine.com/](https://annekathrinkleine.com//)
+`r fa("github")` [**\@AnneOkk**](https://github.com/AnneOkk)
+
+`r fa("link")` [**http://annekathrinkleine.com/**](https://annekathrinkleine.com//)
 
