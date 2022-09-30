@@ -3,7 +3,7 @@ title: "Körperliche Fitness – Sport als Hilfsmittel zur Stressbewältigung im
 author: "Anne-Kathrin Kleine"
 date: "17.10.2022"
 title-slide-attributes:
-    data-background-color: "#85344d"
+    data-background-color: "#fec26b"
     data-background-image: "images/Logo_LMU_Center_full.png"
     data-background-size: "350px"
     data-background-position: "top 5px right 20px"
