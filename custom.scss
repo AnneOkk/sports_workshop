@@ -4,7 +4,7 @@ $link-color: #b67900;
 $presentation-heading-color: #9e3965;
 $code-block-border-color: #000000;
 $title-block-banner-color: #b67900;
-$presentation-font-size-root: 50px;
+$presentation-font-size-root: 30px;
 
 /*-- scss:rules --*/
 
@@ -61,12 +61,12 @@ $presentation-font-size-root: 50px;
 }
 
 .reveal h2 {
-  font-size: 90px;
+  font-size: 70px;
   text-shadow: 2px 2px 4px rgba(255,255,255, 0.9);
 }
 
 .reveal h3 {
-  font-size: 67px;
+  font-size: 50px;
   text-shadow: 2px 2px 4px rgba(255,255,255, 0.9);
 }
 
