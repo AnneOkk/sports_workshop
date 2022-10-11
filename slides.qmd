@@ -3,7 +3,7 @@ title: "Körperliche Fitness – Sport als Hilfsmittel zur Stressbewältigung im
 author: "Anne-Kathrin Kleine"
 date: "17.10.2022"
 title-slide-attributes:
-    data-background-color: "#fec26b"
+    data-background-color: "#b5daf7"
     data-background-image: "images/Logo_LMU_Center_full.png"
     data-background-size: "350px"
     data-background-position: "top 5px right 20px"
@@ -81,7 +81,7 @@ library(gtExtras)
 
 
 
-# Bitte rufen Sie [annekathrinkleine.com](annekathrinkleine.com) auf, gehen Sie zu "Talks and Workshops" und öffnen Sie die Slideshow für den heutigen Workshop {background-color="#00883A"}
+# Bitte rufen Sie [annekathrinkleine.com](https://annekathrinkleine.netlify.app/) auf, gehen Sie zu "Talks and Workshops" und laden Sie das Worksheet herunter {background-color="#00883A"}
 
 
 ::: {.notes}
@@ -95,15 +95,32 @@ Wenn Fragen aufkommen, könnt ihr diese jederzeit stellen. Bitte legt einen Bloc
 
 :::
 
+##
+
+![](images/vision.png)
+
+##
+
+![](images/center.png)
+
+##
+
+![](images/certi.png)
+
+##
+
+![](images/quali.png)
+
+
 ## Wie zufrieden sind Sie mit Ihrem aktuellen Sportpensum? 
 
 ![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
 
 <br/><br/>
 
-Besuchen Sie [diese Seite](https://www.menti.com/al14e9g5f7kf)
+Besuchen Sie [diese Seite](https://www.menti.com/al5psy4wfe9b)
 
-## {background-iframe="https://www.mentimeter.com/app/presentation/4eefd91211156033bd3fa9f601f280c2/57c5b1296da5/embed"}
+## {background-iframe="https://www.mentimeter.com/app/presentation/al681kdhspqhns5fv8nzaaxynpz3ik12/kwqgeukq8jk6"}
 
 
 # Die vielfältigen Funktionen des Sports {background-color="#00883A"}
@@ -223,9 +240,9 @@ Sozialverhaltens entfalten können.
 
 ![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
 
-Besuchen Sie [diese Seite](https://www.menti.com/al14e9g5f7kf)
+Besuchen Sie [diese Seite](https://www.menti.com/algh7itprq1k)
 
-## {background-iframe="https://www.mentimeter.com/app/presentation/4eefd91211156033bd3fa9f601f280c2/57c5b1296da5/embed"}
+## {background-iframe="https://www.mentimeter.com/app/presentation/aldyvgwhh1aqg5rk226ne1hw3qech6hz/awrsjaurp3n7"}
 
 
 # Wann und wie tut Sport eigentlich gut? {background-color="#00883A"}
@@ -243,7 +260,7 @@ Sportmotivation aus der Selbstbestimmungsperspektive: [**Die drei Grundbedürfni
 
 - Das Autonomiebedürfnis wird durch das Fällen eigener, unabhängiger Entscheidungen gestärkt
 
-- Handeln wir im Einklang mit unseren Werten und Normen und fühlen uns nicht oder kaum von aßen bestimmt, ist unser Autonomieempfinden hoch
+- Handeln wir im Einklang mit unseren Werten und Normen und fühlen uns nicht oder kaum von außen bestimmt, ist unser Autonomieempfinden hoch
 
 ## {background-image="images/relation.jpg"}
 
@@ -253,7 +270,6 @@ Sportmotivation aus der Selbstbestimmungsperspektive: [**Die drei Grundbedürfni
 
 - Das Beziehungsbedürfnis ist erfüllt, wenn wir uns mit anderen verbunden fühlen und von anderen verstanden fühlen
 
-- Autonomie-und Beziehungsbedürfnis können, aber müssen nicht, im Widerspruch stehen
 
 ## {background-image="images/compet.jpg"}
 
@@ -353,7 +369,19 @@ __Erlernen neuer Fertigkeiten__
 
 - das Kompetenzbedürfnis wird erfüllt, wenn es uns im Vergleich zu anderen schneller oder genauso schnell gelingt, uns im Sport zu verbessern 
 
-# Die Bedürfniserfüllung im Sport und unser Wohlbefinden - alles eine Frage der Kongruenz? {background-color="#00883A"}
+# Questions? {background-color="#00883A"}
+
+# BREAK! (10 Min) {background-image="images/break.jpg" background-opacity=0.5}
+
+# Bring something sporty! {background-image="images/bring2.jpg" background-opacity=0.5}
+
+## Bring something sporty! {background-image="images/bring2.jpg" background-opacity=0.2}
+
+Suchen Sie in Ihrer Wohnung oder an Ihrem Arbeitsplatz einen Gegenstand, den Sie mit Sport in Verbindung bringen und stellen Sie diesen kurz vor. 
+
+Haben Sie keinen klassischen sportlichen Gegenstand zur Hand? Werden Sie kreativ! 
+
+# Das Autonomiebedürfnis im Sport - alles eine Frage der Kongruenz? {background-color="#00883A"}
 
 ## Die Kongruenzregel
 
@@ -365,7 +393,7 @@ __Erlernen neuer Fertigkeiten__
 
 . . .
 
-- z.B. bei stark ausgeprägtem Autonomiebedürfnis ist es wichtig, dass die sportliche Aktivität dieses Grundnedürfnis erfüllt, damit uns der Sport zufrieden macht
+- z.B. bei stark ausgeprägtem Autonomiebedürfnis ist es wichtig, dass die sportliche Aktivität dieses Grundbedürfnis erfüllt, damit uns der Sport zufrieden macht
 
 ## Ego vs. Task Involvement
 
@@ -424,14 +452,14 @@ __Erlernen neuer Fertigkeiten__
 - Denken Sie an äußere (z.B. das Wetter, die Kinder, der Arbeitsdruck) und innere Barrieren (z.B. kein Bock)
 
 
-## {background-iframe="https://www.mentimeter.com/app/presentation/4eefd91211156033bd3fa9f601f280c2/57c5b1296da5/embed"}
+## {background-iframe="https://www.mentimeter.com/app/presentation/al681kdhspqhns5fv8nzaaxynpz3ik12/kwqgeukq8jk6"}
 
 
-# Spoken word 🗣️{background-color="#00883A"}
+# Written word ✏️ ... Spoken word 🗣️{background-color="#00883A"}
 
 Hören Sie einander gut zu, denn die Antworten werden in der nächsten Runde noch relevant. 
 
-## Denken Sie an den schönsten Moment beim oder kurz nach dem Sport, den Sie in den letzten 6 Monaten erlebt haben. 
+## ✏️ Worksheet: Beschreiben Sie an den schönsten Moment beim oder kurz nach dem Sport, den Sie in den letzten 6 Monaten erlebt haben. 
 
 ![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
 
@@ -442,7 +470,7 @@ Hören Sie einander gut zu, denn die Antworten werden in der nächsten Runde noc
 ### Was hat diesen Moment so besonders gemacht? 
 
 
-## Denken Sie jetzt an eine positive Empfindung beim oder kurz nach dem Sport, die Sie schon öfter erlebt haben.
+## ✏️ Worksheet: Beschreiben Sie jetzt eine positive Empfindung beim oder kurz nach dem Sport, die Sie schon öfter erlebt haben.
 
 ![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
 
@@ -459,24 +487,6 @@ Hören Sie einander gut zu, denn die Antworten werden in der nächsten Runde noc
 Falls Ihnen das schwerfällt, beschreiben Sie eine Sportart, die Sie früher mochten. Das kann weniger als ein Jahr her oder eine Erfahrung aus Ihrer Kindheit sein.  
 
 # Wie finde ich eine Sportart, die zu mir passt und mich zufrieden macht? ️{background-color="#00883A"}
-
-## Der Weg zum "richtigen Sport" für mich 
-
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
-
-- Generell gilt, dass Sportarten, die alle drei Grundbedürfnisse (Autonomie, Beziehungen, Kompetenz) erfüllen, am glücklichsten machen 
-
-. . .
-
-- erfüllt ein Sport unsere Grundbedürfnisse optimal, sind wir intrinsisch motiviert - es macht uns zufrieden, dieser Tätigkeit nachzugehen
-
-. . .
-
-- Sport, der vor allem extrinsisch motiviert ist (schöner Körper, Anerkennung) macht weniger zufrieden 
-
-## {background-image="images/tae.jpg" background-opacity=0.5}
-
-### z.B. wurde herausgefunden, dass [Tae Kwon Do mit einem stärkeren Zugewinn an Zufriedenheit assoziiert ist als beispielsweise Aerobic oder Gewichtheben](https://books.google.de/books?hl=en&lr=&id=DcAe2b7L-RgC&oi=fnd&pg=PA277&dq=sports+motivation+self+congruence&ots=dsAN1H_72h&sig=YLursicdVgLS_Sa9vE2kpP7Zwrg&redir_esc=y#v=onepage&q&f=false)
 
 ## Der Weg zum "richtigen Sport" für mich 
 
@@ -517,9 +527,7 @@ barplot(t(as.matrix(data_cycle)), beside=TRUE, main = "Fahrradfahren in der Grup
         cex.axis=2.3, cex.names=2.3, cex.main = 3.0)
 ```
 
-
-
-## {background-video="images/PIE.mp4" background-video-loop="false" background-video-muted="true"}
+## {background-image="images/PIE2.png"}
 
 
 # Ziele formulieren, Hindernisse antizipieren, Lösungen finden {background-color="#00883A"}
@@ -545,7 +553,6 @@ barplot(t(as.matrix(data_cycle)), beside=TRUE, main = "Fahrradfahren in der Grup
     - schildern Sie ein oder zwei Haupthindernisse 
     - diskutieren sie mögliche Lösungen - es geht nicht darum, für jedes Problem eine Lösung zu finden
     
-## {background-image="images/PIE2.png"}
 
 ## {background-image="images/thanks.jpg"}
 
