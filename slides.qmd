@@ -53,7 +53,7 @@ library(gtExtras)
 
 ## Technische Hinweise {background-color="#ADD8E6"}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 . . .
 
@@ -97,24 +97,50 @@ Wenn Fragen aufkommen, könnt ihr diese jederzeit stellen. Bitte legt einen Bloc
 
 ##
 
-![](images/vision.png)
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
+
+
+![](images/vision.png){width="1000"}
 
 ##
 
-![](images/center.png)
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
+
+
+![](images/center.png){width="1000"}
 
 ##
 
-![](images/certi.png)
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
+
+
+![](images/certi.png){width="1000"}
 
 ##
 
-![](images/quali.png)
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
+
+![](images/quali.png){width="1000"}
+
+## Mein Zugang zum Sport
+
+::: {.r-stack}
+![](images/hockey.jpg){.fragment width="500"}
+
+![](images/swim.jpg){.fragment width="510"}
+
+
+![](images/thai.jpg){.fragment width="550"}
+
+![](images/swimmer.jpg){.fragment width="600"}
+
+![](images/m1.jpeg){.fragment width="650"}
+:::
 
 ## Wie zufrieden sind Sie mit Ihrem aktuellen Sportpensum? 
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 <br/><br/>
 
@@ -130,7 +156,7 @@ Besuchen Sie [diese Seite](https://www.menti.com/al5psy4wfe9b)
 
 ## Körperliche und mentale Gesundheit {background-image="images/health.jpg" background-opacity=0.1}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 Sport trägt (wenn das Pensum und die Motivation stimmen) zur [körperlichen Gesundheit](https://static1.squarespace.com/static/60131e01d2d9c849d43b6a2a/t/611e908476709c1452bb2e92/1629393031740/Book.pdf#page=53) bei:
 
@@ -150,7 +176,7 @@ Sport wirkt sich außerdem nicht nur positiv auf die körperliche Fitness aus, s
 
 ## [Soziale Funktion](https://sportscotland.org.uk/documents/resources/thesocialbenefitsofsport.pdf) {background-image="images/social.jpg" background-opacity=0.1}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 - Im Sport wird Begegnung und Dialog in Kooperation und angemessenem Wettstreit ermöglicht. 
 
@@ -162,16 +188,13 @@ Sport wirkt sich außerdem nicht nur positiv auf die körperliche Fitness aus, s
 
 - Sport verbindet Menschen durch das gemeinsame Interesse an der Sache. 
 
-. . .
 
-- Im Sport gibt es Regeln, die positive Wirkungen im Sinne eines an Werten und Normen orientierten
-Sozialverhaltens entfalten können. 
 
 ## {background-image="images/strength.jpg"}
 
 ## Persönliche Entwicklung {background-image="images/strength.jpg" background-opacity=0.1}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 - Sport bietet die Möglichkeit, gezielt an sich zu arbeiten und sich weiterzuentwickeln. 
 
@@ -192,7 +215,7 @@ Sozialverhaltens entfalten können.
 
 ## Ästhetische Funktion {background-image="images/aesth2.jpg" background-opacity=0.1}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 
 - Es gibt einen [bidirektionalen Zusammenhang zwischen einer positiven Sicht auf den eigenen Körper und sportlicher Betätigung](https://www.sciencedirect.com/science/article/abs/pii/S1469029218305491).
@@ -207,7 +230,7 @@ Sozialverhaltens entfalten können.
 
 ## [Die negativen Seiten des Sports](https://link.springer.com/article/10.1007/s00132-019-03823-5#:~:text=Dies%20betrifft%20in%20erster%20Linie,wie%20Essst%C3%B6rungen%2C%20Substanzmissbrauch%20sowie%20Sportabh%C3%A4ngigkeit._) {background-image="images/negative.jpg" background-opacity=0.1}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 - Körperliche Beeinträchtigungen durch Verletzungen 
 
@@ -234,11 +257,10 @@ Sozialverhaltens entfalten können.
 :::
 
 
-## Was hält Sie Ihrer Meinung nach davon ab, soviel Sport zu machen, wie Sie es sich wünschen?
+# Was hält Sie Ihrer Meinung nach davon ab, soviel Sport zu machen, wie Sie es sich wünschen?
 
 <br/><br/>
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
 
 Besuchen Sie [diese Seite](https://www.menti.com/algh7itprq1k)
 
@@ -256,7 +278,7 @@ Sportmotivation aus der Selbstbestimmungsperspektive: [**Die drei Grundbedürfni
 
 ## Das Autonomiebedürfnis {background-image="images/autonomy.jpg" background-opacity=0.1}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 - Das Autonomiebedürfnis wird durch das Fällen eigener, unabhängiger Entscheidungen gestärkt
 
@@ -266,7 +288,7 @@ Sportmotivation aus der Selbstbestimmungsperspektive: [**Die drei Grundbedürfni
 
 ## Das Beziehungsbedürfnis {background-image="images/relation.jpg" background-opacity=0.1}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 - Das Beziehungsbedürfnis ist erfüllt, wenn wir uns mit anderen verbunden fühlen und von anderen verstanden fühlen
 
@@ -275,7 +297,7 @@ Sportmotivation aus der Selbstbestimmungsperspektive: [**Die drei Grundbedürfni
 
 ## Das Kompetenzbedürfnis {background-image="images/compet.jpg" background-opacity=0.1}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 - Das Kompenezbedürfnis ist erfüllt, wenn wir die Erfahrung machen, dass unser Handeln die gewünschten Effekte hervorbringt
 
@@ -284,7 +306,7 @@ Sportmotivation aus der Selbstbestimmungsperspektive: [**Die drei Grundbedürfni
 
 ## Die drei Grundbedürfnisse
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 <br/>
 
@@ -307,69 +329,59 @@ und
 
 ## Das Autonomiebedürfnis {background-image="images/autonomy.jpg" background-opacity=0.2}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 __Die Coachin/ der Coach__
 
-- generelle Unterscheidung zwischen einem [kontrollierenden und einem Autonomie stützenden Coaching-Stil](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.704.6438&rep=rep1&type=pdf_)
+- mag ich eher einen [kontrollierenden und einem Autonomie stützenden Coaching-Stil](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.704.6438&rep=rep1&type=pdf_)? 
+- brauche ich Kontrolle von außen oder entscheide ich lieber selber wie und was ich trainiere? 
+
 
 . . .
 
 __Vereinsstruktur und Mitgliedschaft__
 
-- flexible Mitgliedschaften schaffen höhere Autonomie 
+- brauche ich eine feste Aufgabe im Team oder möchte ich flexibel entscheiden, wo ich meinen sportlichen Fokus setze?  
 
 ## Das Autonomiebedürfnis {background-image="images/autonomy.jpg" background-opacity=0.2}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
-__Individual- vs. Teamsport__
-
-- generell mehr Autonomie im Individualsport 
-
-. . .
 
 __Das Umfeld__
 
-- wächst der Druck von außen (durch Partner_innen, Eltern, Freund_innen) Sport zu treiben, sinkt das Autonomieempfinden 
+- wer will eigentlich, dass ich mehr Sport mache? 
 
-. . .
-
-__Wertekonformität__
-
-- wenn der Sport, den wir treiben, zu unseren Werten passt, ist unser Autonomieempfinden hoch. Das betrifft die Sportart selbst als auch den Umgang miteinander
-
+- besteht Druck von außen (Partner_innen, Kolleg_innen)? Wie fühlt sich das an? 
 
 ## Das Beziehungsbedürfnis {background-image="images/relation.jpg" background-opacity=0.2}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 __Individual- vs. Teamsport__
 
-- Stärkere Betonung des Gemeinschaftlichen im Teamsport 
+- Suche ich soziale Anbindung und Kontakte? 
+
+- Bin ich ein Teamplayer? Falls nein, welche Möglichkeiten habe ich im Individualsport, Kontakte aufzubauen und sportliche Erfolge zusammen zu feiern? 
 
 . . .
 
 __Langfristige Bindung__
 
-- die Erfüllung des Beziehungsbedürfnisses hängt auch davon ab, [ob wir uns langfristig an einen Verein oder eine Sportgruppe binden](http://kops.uni-konstanz.de/bitstream/handle/123456789/37189/Schueler_0-382784.pdf?sequence=3&isAllowed=y)
+- habe ich die Kapazitäten, mich langfristig an einen Verein zu binden und Verpflichtungen einzuhalten? 
 
 ## Das Kompetenzbedürfnis {background-image="images/compet.jpg" background-opacity=0.2}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
-__Abruf bereits vorhandener Skills/ Talente__
+__Nutzung von Skills und Aufbau neuer Kompetenzen__
 
-- das Kompetenzbedürfnis wird erfüllt, wenn die sportliche Tätigkeit schon vorhandene Stärken und Kompetenzen einbezieht 
+- welche Stärken bringe ich mit (nicht nur sportlich)? 
 
-. . .
+- worin will ich besser werden?
 
 
-__Erlernen neuer Fertigkeiten__
-
-- das Kompetenzbedürfnis wird erfüllt, wenn es uns im Vergleich zu anderen schneller oder genauso schnell gelingt, uns im Sport zu verbessern 
-
-# Questions? {background-color="#00883A"}
+# Haben Sie Fragen? {background-color="#00883A"}
 
 # BREAK! (10 Min) {background-image="images/break.jpg" background-opacity=0.5}
 
@@ -381,35 +393,6 @@ Suchen Sie in Ihrer Wohnung oder an Ihrem Arbeitsplatz einen Gegenstand, den Sie
 
 Haben Sie keinen klassischen sportlichen Gegenstand zur Hand? Werden Sie kreativ! 
 
-# Das Autonomiebedürfnis im Sport - alles eine Frage der Kongruenz? {background-color="#00883A"}
-
-## Die Kongruenzregel
-
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
-
-. . .
-
-- generell gefallen uns Tätigkeiten besser, die mit unseren individuellen Bedürfnissen, Werten und Zielen im Einklang stehen 
-
-. . .
-
-- z.B. bei stark ausgeprägtem Autonomiebedürfnis ist es wichtig, dass die sportliche Aktivität dieses Grundbedürfnis erfüllt, damit uns der Sport zufrieden macht
-
-## Ego vs. Task Involvement
-
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
-
-. . .
-
-- ein Klima, das Ego Involvement fördert, ist durch einen **Leistungsfokus** charakterisiert - **Wettkampf, sozialer Vergleich und öffentliche Beurteilung** stehen im Vordergrund 
-
-. . .
-
-- ein Klima, das Task Involvement fördert, ist durch einen **Fokus auf die Aufgabe** charakterisiert; die **Lernerfahrung** und die **die Aneignung neuer Fertigkeiten** stehen im Vordergrund 
-
-. . .
-
-- [passen die Gewichtung von Ego vs. Task Zielen im Verein zur eigenen Gewichtung von Ego vs. Task Zielen, fällt es uns leichter, langfristig motiviert zu bleiben](https://www.zora.uzh.ch/id/eprint/96690/1/Schueler_et_al_Implicit_motives.pdf)
 
 # Der Weg zum Sport {background-color="#00883A"}
 
@@ -417,7 +400,7 @@ Haben Sie keinen klassischen sportlichen Gegenstand zur Hand? Werden Sie kreativ
 
 ## Besteht ein Bedürfnis nach Veränderung? {background-image="images/change.jpg" background-opacity=0.1}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 - Erst einmal muss Ihnen deutlich sein, ob Sie gerne mehr Sport treiben wollen
 
@@ -430,7 +413,7 @@ Haben Sie keinen klassischen sportlichen Gegenstand zur Hand? Werden Sie kreativ
 
 ## Konkrete Ziele setzen {background-image="images/goal.jpg" background-opacity=0.1}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 - Es gibt keine richtigen oder falschen Ziele, sondern nur individuell passende oder weniger passende Ziele
 
@@ -438,65 +421,43 @@ Haben Sie keinen klassischen sportlichen Gegenstand zur Hand? Werden Sie kreativ
 
 - Ziele sollten so konkret wie möglich sein. Z.B.:
 
-    - weniger Rückenschmerzen
-    - mehr Beweglichkeit
-    - einen Marathon laufen 
-    - einen Marathon in unter 4 Stunden laufen 
+    - weniger Rückenschmerzen durch Aufbau der Rückenmuskulatur innerhalb der nächsten sechs Monate 
+    - mehr Beweglichkeit durch Dehnung und Yoga an mindestens 3 Tagen pro Woche 
+    - einen Marathon laufen am 1.5.2023
+    - einen Marathon in unter 4 Stunden laufen am 1.8.2023
 
 ## {background-image="images/obstacle.jpg"}
 
 ## Hindernisse identifizieren und Lösungen finden {background-image="images/obstacle.jpg" background-opacity=0.1}
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
-- Denken Sie an äußere (z.B. das Wetter, die Kinder, der Arbeitsdruck) und innere Barrieren (z.B. kein Bock)
+- Denken Sie an äußere (z.B. das Wetter, die Kinder, der Arbeitsdruck) und innere Barrieren (z.B. keine Motivation)
 
 
 ## {background-iframe="https://www.mentimeter.com/app/presentation/al681kdhspqhns5fv8nzaaxynpz3ik12/kwqgeukq8jk6"}
 
 
-# Written word ✏️ ... Spoken word 🗣️{background-color="#00883A"}
+# From written word (3 Minuten) ✏️ to spoken word (10 Minuten) 🗣️{background-color="#00883A"}
 
-Hören Sie einander gut zu, denn die Antworten werden in der nächsten Runde noch relevant. 
+## ✏️ Worksheet: Was verbinden Sie mit Sport? 
 
-## ✏️ Worksheet: Beschreiben Sie an den schönsten Moment beim oder kurz nach dem Sport, den Sie in den letzten 6 Monaten erlebt haben. 
+### Welche negative Assoziationen haben Sie? 
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+### Was ist besonders schön am Sport?
 
-. . .
-
-<br/>
-
-### Was hat diesen Moment so besonders gemacht? 
-
-
-## ✏️ Worksheet: Beschreiben Sie jetzt eine positive Empfindung beim oder kurz nach dem Sport, die Sie schon öfter erlebt haben.
-
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
-
-. . .
-
-<br/>
-
-### Nennen Sie die Sportart und versuchen Sie, diese positive Empfindung zu beschreiben. 
-
-. . .
-
-<br/>
-
-Falls Ihnen das schwerfällt, beschreiben Sie eine Sportart, die Sie früher mochten. Das kann weniger als ein Jahr her oder eine Erfahrung aus Ihrer Kindheit sein.  
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 # Wie finde ich eine Sportart, die zu mir passt und mich zufrieden macht? ️{background-color="#00883A"}
 
 ## Der Weg zum "richtigen Sport" für mich 
 
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
 
 - Es ist generell wichtig, alle Grundbedürfnisse im Blick zu haben und mit individuellen Werten und Zielen, aber auch der individuellen Lebensgestaltung in Einklang zu bringen 
 
 . . .
 
-Hier einige fiktive Beispiele zur Illustration:
+Hier einige Beispiele zur Illustration:
 
 ```{r}
 #| echo: false
@@ -504,10 +465,10 @@ Hier einige fiktive Beispiele zur Illustration:
 #| fig-height: 6.5
 
 data_gym <- data.frame(relatedness  = c(0.5),
-                       autonomy = c(4))
+                       autonomy = c(3.5))
 
 data_soccer <- data.frame(relatedness  = c(3.5),
-                       autonomy = c(2.5))
+                       autonomy = c(2.0))
 
 data_cycle <- data.frame(relatedness  = c(1.5),
                        autonomy = c(3.5))
@@ -516,25 +477,33 @@ data_cycle <- data.frame(relatedness  = c(1.5),
 par(mfrow=c(1,3))
 barplot(t(as.matrix(data_gym)), beside=TRUE, main = "Klassische Gym Session", 
         names.arg=c("Beziehungen", "Autonomie"),
-        cex.axis=2.3, cex.names=2.3, cex.main = 3.0)
+        cex.axis=2.3, cex.names=2.3, cex.main = 3.0, xlab = "", ylab = "", yaxt='n')
 
 barplot(t(as.matrix(data_soccer)), beside=TRUE, main = "Fußball", 
         names.arg=c("Beziehungen", "Autonomie"),
-        cex.axis=2.3, cex.names=2.3, cex.main = 3.0)
+        cex.axis=2.3, cex.names=2.3, cex.main = 3.0, xlab = "", ylab = "", yaxt='n')
 
 barplot(t(as.matrix(data_cycle)), beside=TRUE, main = "Fahrradfahren in der Gruppe", 
         names.arg=c("Beziehungen", "Autonomie"),
-        cex.axis=2.3, cex.names=2.3, cex.main = 3.0)
+        cex.axis=2.3, cex.names=2.3, cex.main = 3.0, xlab = "", ylab = "", yaxt='n')
 ```
 
-## {background-image="images/PIE2.png"}
+## {background-image="images/PIE_high.jpg"}
+
+## {background-image="images/PIE_high2.jpg"}
+
+## {background-image="images/PIE_high3.jpg"}
+
+## {background-image="images/PIE_high4.jpg"}
+
+## {background-image="images/PIE_high5.jpg"}
+
+## {background-image="images/PIE_high6.jpg"}
 
 
-# Ziele formulieren, Hindernisse antizipieren, Lösungen finden {background-color="#00883A"}
+## Ziele formulieren, Hindernisse antizipieren, Lösungen finden
 
-## Zu zweit: Reden Sie miteinander...
-
-![](images/Logo_LMU_Center_full.png){.absolute top=-180 right=-150 width="450"}
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
 . . .
 
