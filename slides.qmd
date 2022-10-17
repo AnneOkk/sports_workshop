@@ -380,6 +380,15 @@ __Nutzung von Skills und Aufbau neuer Kompetenzen__
 
 - worin will ich besser werden?
 
+## *"Spaß am Sport braucht Zeit"* 
+
+![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
+
+<br/>
+
+### Was fällt Ihnen zu dieser Aussage ein? Stimmen Sie zu? 
+
+. . .
 
 # Haben Sie Fragen? {background-color="#00883A"}
 
@@ -435,7 +444,7 @@ Haben Sie keinen klassischen sportlichen Gegenstand zur Hand? Werden Sie kreativ
 - Denken Sie an äußere (z.B. das Wetter, die Kinder, der Arbeitsdruck) und innere Barrieren (z.B. keine Motivation)
 
 
-## {background-iframe="https://www.mentimeter.com/app/presentation/al681kdhspqhns5fv8nzaaxynpz3ik12/kwqgeukq8jk6"}
+## {background-iframe="https://www.mentimeter.com/app/presentation/aldyvgwhh1aqg5rk226ne1hw3qech6hz/awrsjaurp3n7"}
 
 
 # From written word (3 Minuten) ✏️ to spoken word (10 Minuten) 🗣️{background-color="#00883A"}
@@ -444,7 +453,7 @@ Haben Sie keinen klassischen sportlichen Gegenstand zur Hand? Werden Sie kreativ
 
 ### Welche negative Assoziationen haben Sie? 
 
-### Was ist besonders schön am Sport?
+### Was ist das schönste, das Sie im Zusammenhang mit sportlicher Betätigung erlebt haben? Beschreiben Sie diese Erfahrung kurz. 
 
 ![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
@@ -501,7 +510,7 @@ barplot(t(as.matrix(data_cycle)), beside=TRUE, main = "Fahrradfahren in der Grup
 ## {background-image="images/PIE_high6.jpg"}
 
 
-## Ziele formulieren, Hindernisse antizipieren, Lösungen finden
+## Ziele formulieren, Hindernisse antizipieren, Lösungen finden ✏️ 🗣
 
 ![](images/Logo_LMU_Center_full.png){.absolute top=-260 right=-160 width="450"}
 
